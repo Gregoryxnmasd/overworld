@@ -51,7 +51,7 @@
     "objects": [
         {
             "translate":{"y": 1},
-            "density": 9,
+            "density": 4,
             "chance": 1,
             "edit": [
                 {
@@ -110,7 +110,7 @@
         },
         {
             "translate":{"y": 1},
-            "density": 9,
+            "density": 4,
             "chance": 1,
             "edit": [
                 {
@@ -169,7 +169,7 @@
         },
         {
             "translate":{"y": 1},
-            "density": 9,
+            "density": 5,
             "chance": 1,
             "edit": [
                 {
