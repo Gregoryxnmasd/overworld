@@ -2,10 +2,6 @@
     "name": "Frozen",
     "color": "#D1CD44",
     "rarity": 5,
-    "lakeStyle":{
-        "style": "PERLIN",
-        "zoom": 1
-    },
     "seaBiomeZoom": 4,
     "landBiomes": [
 		"frozen/meadows",
@@ -26,8 +22,8 @@
     ],
     "seaBiomes": ["frozen/sea/ocean", "frozen/sea/ocean-cliffs"],
     "shoreBiomes": ["frozen/shore/shore"],
-    "shoreBiomeZoom": 3,
-    "landBiomeZoom": 0.75,
+    "shoreBiomeZoom": 2,
+    "landBiomeZoom": 2.5,
     "shoreHeightMin": 0,
     "shoreHeightMax": 0,
     "shoreHeightZoom": 1
