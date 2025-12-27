@@ -2,10 +2,6 @@
     "name": "Tropical",
     "color": "#D1CD44",
     "rarity": 5,
-    "lakeStyle":{
-        "style": "PERLIN",
-        "zoom": 1
-    },
     "seaBiomeZoom": 4,
     "landBiomes": [
         "tropical/jungle",
@@ -17,8 +13,8 @@
     "seaBiomes": ["tropical/sea/ocean", "tropical/sea/ocean-cliffs"],
     "shoreBiomes": ["tropical/shore/beach", "tropical/shore/grass_beach"],
 
-    "shoreBiomeZoom": 4,
-    "landBiomeZoom": 1,
+    "shoreBiomeZoom": 2,
+    "landBiomeZoom": 2.5,
     "shoreHeightMin": 0,
     "shoreHeightMax": 2,
     "shoreHeightZoom": 0.1
