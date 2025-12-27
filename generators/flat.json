@@ -1,0 +1,14 @@
+{
+    "interpolator": {
+        "horizontalScale": 30,
+        "function": "HERMITE"
+    },
+    "seed": 53551,
+    "composite": [{
+        "style": {
+            "style": "FLAT",
+            "zoom": 1
+        },
+        "seed": 3356
+    }]
+}

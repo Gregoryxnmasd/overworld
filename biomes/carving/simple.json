@@ -1,0 +1,15 @@
+{
+    "name": "Cave",
+    "layers": [
+        {
+            "palette": [],
+            "maxHeight": 0
+        }
+    ],
+    "caveCeilingLayers": [
+        {
+            "palette": [],
+            "maxHeight": 0
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "name": "Jungle",
+    "color": "#B06F27",
+    "rarity": 3,
+    "vanillaDerivative": "JUNGLE",
+    "customDerivitives": [{
+        "id": "jungle",
+        "grassColor": "#62e620",
+        "foliageColor": "#62e620",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 3,
+        "max": 8,
+        "generator": "meadows"
+    },
+    {
+        "min": 3,
+        "max": 7,
+        "generator": "meadows"
+    },
+    {
+        "min": 5,
+        "max": 11,
+        "generator": "meadows"
+    },
+    {
+        "min": -5,
+        "max": -12,
+        "generator": "mountain"
+    }
+    ],
+    "biomeZoom": 1.25,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "density": 10,
+            "chance": 1,
+            "place": [
+                "trees/jungle/1",
+                "trees/jungle/2",
+                "trees/jungle/3",
+                "trees/jungle/4",
+                "trees/jungle/5",
+                "trees/jungle/6",
+                "trees/jungle/7",
+                "trees/jungle/8",
+                "trees/jungle/9",
+                "trees/jungle/15",
+                "trees/jungle/16",
+                "trees/jungle/17",
+                "trees/jungle/18"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 2,
+            "chance": 0.58,
+            "place": [
+                "trees/jungle/9",
+                "trees/jungle/10",
+                "trees/jungle/11",
+                "trees/jungle/12",
+                "trees/jungle/13",
+                "trees/jungle/14"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 3,
+            "chance": 1,
+            "place": [
+                "trees/jungle/bushes/1",
+                "trees/jungle/bushes/2",
+                "trees/jungle/bushes/3",
+                "trees/jungle/bushes/4",
+                "trees/jungle/bushes/5",
+                "trees/jungle/bushes/6",
+                "trees/jungle/bushes/7",
+                "trees/jungle/bushes/8"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.35,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.15,
+            "palette": [{"block": "minecraft:short_grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.05,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.15,
+            "palette": [{"block": "minecraft:tall_grass"}],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

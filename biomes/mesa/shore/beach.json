@@ -1,0 +1,57 @@
+{
+    "name": "Mesa Beach",
+    "color": "#DF9F39",
+    "rarity": 3,
+    "derivative": "BEACH",
+    "vanillaDerivative": "BEACH",
+    "generators": [{
+        "min": 0,
+        "max": 1,
+        "generator": "plain"
+    }],
+    "biomeZoom": 1,
+    "biomeStyle": {"style": "SIMPLEX"},
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.17,
+            "palette": [{"block": "blocks_expansion:seastone", "weight": 3},
+                        {"block": "blocks_expansion:chert", "weight": 1},
+                        {"block": "minecraft:sand", "weight": 13}]
+        },
+        {"palette": [{"block": "minecraft:dirt"}]},
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {"block": "minecraft:dirt"},
+                {"block": "minecraft:coarse_dirt"}
+            ]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "decorators": [{
+        "chance": 0.35,
+        "variance": {"style": "STATIC"},
+        "zoom": 0.3,
+        "palette": [{"block": "minecraft:short_grass"}],
+        "style": {"style": "STATIC"}
+    }]
+}

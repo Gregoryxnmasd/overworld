@@ -1,0 +1,135 @@
+{
+    "name": "Dark Oak Forest",
+    "color": "#B06F27",
+    "rarity": 1,
+    "children": ["temperate/dark_oak_forest"],
+    "customDerivitives": [{
+        "id": "dark_oak_forest",
+        "grassColor": "#507a32",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 20,
+        "max": 28,
+        "generator": "mountain"
+    }
+    ],
+    "biomeZoom": 0.12,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "density": 5,
+            "chance": 1,
+            "place": [
+                "trees/dark_oak/forest/1",
+                "trees/dark_oak/forest/2",
+                "trees/dark_oak/forest/3",
+                "trees/dark_oak/forest/4",
+                "trees/dark_oak/forest/5",
+                "trees/dark_oak/forest/6"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 2,
+            "chance": 0.45,
+            "place": [
+                "trees/dark_oak/forest/bushes/1",
+                "trees/dark_oak/forest/bushes/2",
+                "trees/dark_oak/forest/bushes/3",
+                "trees/dark_oak/forest/bushes/4",
+                "trees/dark_oak/forest/bushes/5",
+                "trees/dark_oak/forest/bushes/6",
+                "trees/dark_oak/forest/bushes/7"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.001,
+            "palette": [
+                {"block": "minecraft:dandelion"},
+                {"block": "minecraft:poppy"},
+                {"block": "minecraft:blue_orchid"},
+                {"block": "minecraft:allium"},
+                {"block": "minecraft:azure_bluet"},
+                {"block": "minecraft:red_tulip"},
+                {"block": "minecraft:orange_tulip"},
+                {"block": "minecraft:white_tulip"},
+                {"block": "minecraft:pink_tulip"},
+                {"block": "minecraft:oxeye_daisy"},
+                {"block": "minecraft:cornflower"},
+                {"block": "minecraft:lily_of_the_valley"},
+                {"block": "minecraft:lilac"},
+                {"block": "minecraft:rose_bush"},
+                {"block": "minecraft:sunflower"},
+                {"block": "extracraft:blue_hydrangea_placed"},
+                {"block": "extracraft:burning_blossom_placed"},
+                {"block": "extracraft:lavender_placed"},
+                {"block": "extracraft:lavender_alt_placed"},
+                {"block": "extracraft:orange_cosmos_placed"},
+                {"block": "extracraft:pink_daffodil_placed"},
+                {"block": "extracraft:violet_placed"},
+                {"block": "extracraft:goldenrod_placed"},
+                {"block": "extracraft:white_lavender_placed"},
+                {"block": "extracraft:white_lavender_alt_placed"}
+            ]
+        },
+        {
+            "chance": 0.001,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:dead_bush"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.3,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:short_grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.01,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:tall_grass"}],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

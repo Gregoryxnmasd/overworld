@@ -1,0 +1,197 @@
+{
+    "name": "Maple Forest",
+    "color": "#B06F27",
+    "rarity": 6,
+    "children": ["temperate/maple_forest"],
+    "customDerivitives": [{
+        "id": "maple_forest",
+        "waterColor": "#48abf7",
+        "downfallType": "rain",
+        "grassColor": "#E3942D"
+    }],
+    "generators": [
+    {
+        "min": 6,
+        "max": 10,
+        "generator": "plain-cliffs"
+    }
+    ],
+    "biomeZoom": 1,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.18,
+            "palette": [
+                {"block": "minecraft:andesite", "weight": 3},
+                {"block": "minecraft:granite", "weight": 1},
+                {"block": "minecraft:diorite", "weight": 1},
+                {"block": "minecraft:stone", "weight": 16}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "density": 9,
+            "chance": 1,
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:note_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "place": [
+                "trees/red_maple/1",
+                "trees/red_maple/2",
+                "trees/red_maple/3",
+                "trees/red_maple/4",
+                "trees/red_maple/5",
+                "trees/red_maple/6",
+                "trees/red_maple/7",
+                "trees/red_maple/8",
+                "trees/orange_maple/1",
+                "trees/orange_maple/2",
+                "trees/orange_maple/3",
+                "trees/orange_maple/4",
+                "trees/orange_maple/5",
+                "trees/orange_maple/6",
+                "trees/orange_maple/7",
+                "trees/orange_maple/8",
+                "trees/yellow_maple/1",
+                "trees/yellow_maple/2",
+                "trees/yellow_maple/3",
+                "trees/yellow_maple/4",
+                "trees/yellow_maple/5",
+                "trees/yellow_maple/6",
+                "trees/yellow_maple/7",
+                "trees/yellow_maple/8"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 2,
+            "chance": 0.45,
+            "place": [
+                "trees/red_maple/bushes/1",
+                "trees/red_maple/bushes/2",
+                "trees/red_maple/bushes/3",
+                "trees/red_maple/bushes/4",
+                "trees/red_maple/bushes/5",
+                "trees/red_maple/bushes/6",
+                "trees/red_maple/bushes/7"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.004,
+            "palette": [
+                {"block": "minecraft:dandelion"},
+                {"block": "minecraft:poppy"},
+                {"block": "minecraft:blue_orchid"},
+                {"block": "minecraft:allium"},
+                {"block": "minecraft:azure_bluet"},
+                {"block": "minecraft:red_tulip"},
+                {"block": "minecraft:orange_tulip"},
+                {"block": "minecraft:white_tulip"},
+                {"block": "minecraft:pink_tulip"},
+                {"block": "minecraft:oxeye_daisy"},
+                {"block": "minecraft:cornflower"},
+                {"block": "minecraft:lily_of_the_valley"},
+                {"block": "minecraft:lilac"},
+                {"block": "minecraft:rose_bush"},
+                {"block": "minecraft:sunflower"},
+                {"block": "extracraft:blue_hydrangea_placed"},
+                {"block": "extracraft:burning_blossom_placed"},
+                {"block": "extracraft:lavender_placed"},
+                {"block": "extracraft:lavender_alt_placed"},
+                {"block": "extracraft:orange_cosmos_placed"},
+                {"block": "extracraft:pink_daffodil_placed"},
+                {"block": "extracraft:violet_placed"},
+                {"block": "extracraft:goldenrod_placed"},
+                {"block": "extracraft:white_lavender_placed"},
+                {"block": "extracraft:white_lavender_alt_placed"}
+            ]
+        },
+        {
+            "chance": 0.001,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:dead_bush"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.3,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:short_grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.01,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:tall_grass"}],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

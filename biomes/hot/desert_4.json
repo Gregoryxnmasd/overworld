@@ -1,0 +1,69 @@
+{
+    "name": "Desert",
+    "color": "#B06F27",
+    "rarity": 1,
+    "vanillaDerivative": "DESERT",
+    "children": ["hot/desert"],
+    "customDerivitives": [{
+        "id": "desert",
+        "waterColor": "#48abf7",
+        "downfallType": "none"
+    }],
+    "generators": [
+    {
+        "min": 3,
+        "max": 8,
+        "generator": "smooth-dunes"
+    }
+    ],
+    "biomeZoom": 1,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:sandstone", "weight": 3},
+            {"block": "minecraft:sand"}
+        ]
+    },
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:sand"}]
+        },
+        {
+            "minHeight": 8,
+            "maxHeight": 11,
+            "palette": [{"block": "minecraft:sandstone"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "decorators": [
+        {
+            "chance": 0.007,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:dead_bush"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.0075,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:cactus"}],
+            "style": {"style": "STATIC"},
+            "stackMax": 3,
+            "stackMin": 1
+        }
+    ]
+}

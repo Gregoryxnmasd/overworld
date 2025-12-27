@@ -1,0 +1,39 @@
+{
+    "name": "Frozen Lake",
+    "color": "#103140",
+    "rarity": 1,
+    "generators": [{
+        "min": -22,
+        "max": -10,
+        "generator": "mountain"
+    }],
+    "layers": [
+        {
+            "minHeight": 0,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:ice"}, {"block": "minecraft:blue_ice"}]
+        },
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.18,
+            "palette": [
+                {"block": "minecraft:sand", "weight": 2},
+                {"block": "minecraft:clay", "weight": 1},
+                {"block": "minecraft:gravel", "weight": 9}
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:sand"},
+                {"block": "minecraft:brown_terracotta"},
+                {
+                    "weight": 2,
+                    "block": "minecraft:sand"
+                }
+            ]
+        }
+    ]
+}

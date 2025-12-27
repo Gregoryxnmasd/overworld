@@ -1,0 +1,56 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_9",
+        "horizontalScale": 16
+    },
+    "seed": 1541521,
+    "composite": [
+        {
+        "style":
+        {
+            "style": "FRACTAL_BILLOW_PERLIN",
+            "zoom": 0.27,
+            "multiplier": 4,
+            "fracture": {
+                "style": "NOWHERE_SIMPLEX",
+                "zoom": 0.35,
+                "multiplier": 2
+            }
+        },
+        "seed": 22618,
+        "bezier": false
+        },
+        {
+            "seed": 8472,
+            "style": {
+                "style": "BIOCTAVE_FRACTAL_BILLOW_PERLIN",
+                "zoom": 0.42,
+                "exponent": 1.5,
+                "fracture": {
+                    "style": "NOWHERE_SIMPLEX",
+                    "zoom": 0.45,
+                    "exponent": 0.7,
+                    "multiplier": 1
+                }
+            },
+            "negative": false,
+            "opacity": 0.6
+        },
+        {
+            "seed": 2152,
+            "style": {
+                "style": "BIOCTAVE_FRACTAL_BILLOW_PERLIN",
+                "zoom": 2,
+                "exponent": 2.5,
+                "fracture": {
+                    "style": "NOWHERE_SIMPLEX",
+                    "zoom": 0.4,
+                    "exponent": 1.7,
+                    "multiplier": 3
+                }
+            },
+            "negative": false,
+            "opacity": 0.6
+        }
+    ]
+}

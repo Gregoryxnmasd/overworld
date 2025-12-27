@@ -1,0 +1,42 @@
+{
+    "name": "Ocean",
+    "color": "#103140",
+    "children": ["temperate/sea/ocean-cliffs"],
+    "derivative": "OCEAN",
+    "vanillaDerivative": "OCEAN",
+    "customDerivitives": [{
+        "id": "ocean",
+        "grassColor": "#03eaff",
+        "category": "icy",
+        "temperature": -3
+    }],
+    "generators": [{
+        "min": -32,
+        "max": -10,
+        "generator": "mountain"
+    }],
+    "layers": [
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.18,
+            "palette": [
+                {"block": "minecraft:sand", "weight": 2},
+                {"block": "minecraft:clay", "weight": 1},
+                {"block": "minecraft:gravel", "weight": 9},
+                {"block": "blocks_expansion:seastone", "weight": 1}
+            ]
+        },
+        {"palette": [{"block": "minecraft:dirt"}]},
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "minecraft:dirt"
+                },
+                {"block": "minecraft:coarse_dirt"}
+            ]
+        }
+    ]
+}

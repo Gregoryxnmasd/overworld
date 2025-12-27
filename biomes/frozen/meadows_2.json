@@ -1,0 +1,72 @@
+{
+    "name": "Frozen Meadows",
+    "color": "#B06F27",
+    "rarity": 2,
+    "vanillaDerivative": "SNOWY_PLAINS",
+    "children": ["frozen/meadows"],
+    "customDerivitives": [{
+        "id": "frozen_meadows",
+        "grassColor": "#03eaff",
+        "waterColor": "#48abf7",
+        "downfallType": "snow",
+        "category": "icy",
+        "temperature": -3
+    }],
+    "generators": [
+    {
+        "min": 6,
+        "max": 8,
+        "generator": "plain-cliffs"
+    }
+    ],
+    "biomeZoom": 1,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:snow_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "decorators": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.001,
+            "palette": [
+                {"block": "extracraft:icy_iris_placed"}
+            ]
+        },
+        {
+            "style": {"style": "FLAT"},
+            "zoom": 0.17,
+            "chance": 0.03,
+            "palette": [
+                {"block": "minecraft:snow"}
+            ]
+        }
+    ]
+}

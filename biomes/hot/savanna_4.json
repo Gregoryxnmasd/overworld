@@ -1,0 +1,92 @@
+{
+    "name": "Savanna",
+    "color": "#B06F27",
+    "rarity": 1,
+    "vanillaDerivative": "SAVANNA",
+    "children": ["hot/savanna"],
+    "customDerivitives": [{
+        "id": "savanna",
+        "grassColor": "#a5ba3d",
+        "foliageColor": "#caed1a",
+        "waterColor": "#48abf7",
+        "downfallType": "none"
+    }],
+    "generators": [
+    {
+        "min": 3,
+        "max": 8,
+        "generator": "smooth-dunes"
+    }
+    ],
+    "biomeZoom": 1,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "chance": 0.14,
+            "place": [
+                "trees/acacia/1",
+                "trees/acacia/2",
+                "trees/acacia/3",
+                "trees/acacia/4",
+                "trees/acacia/5",
+                "trees/acacia/6",
+                "trees/acacia/7",
+                "trees/acacia/8"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.001,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:dead_bush"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.3,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:short_grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.01,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.3,
+            "palette": [{"block": "minecraft:tall_grass"}],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

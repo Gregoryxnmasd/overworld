@@ -1,0 +1,36 @@
+{
+    "composite": [{
+        "style": {
+            "style": "PERLIN",
+            "zoom": 0.47,
+            "fracture": {
+                "style": "PERLIN_IRIS_HALF",
+                "zoom": 0.29,
+                "multiplier": 3
+            }
+        },
+        "seed": 10556,
+        "bezier": false,
+        "exponent": 1.025
+    }],
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_3",
+        "horizontalScale": 4
+    },
+    "seed": 7246661,
+    "cliffHeightGenerator": {
+        "style": {"style": "PERLIN_IRIS_HALF"},
+        "sinCentered": true,
+        "seed": 50056,
+        "parametric": false,
+        "zoom": 0.42,
+        "enabled": true,
+        "offsetX": 0,
+        "octaves": 3,
+        "offsetZ": 0,
+        "offsetY": 0,
+        "opacity": 1,
+        "bezier": false,
+        "exponent": 1.525
+    }
+}

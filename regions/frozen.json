@@ -1,0 +1,34 @@
+{
+    "name": "Frozen",
+    "color": "#D1CD44",
+    "rarity": 5,
+    "lakeStyle":{
+        "style": "PERLIN",
+        "zoom": 1
+    },
+    "seaBiomeZoom": 4,
+    "landBiomes": [
+		"frozen/meadows",
+		"frozen/meadows_1",
+		"frozen/meadows_2",
+		"frozen/meadows_3",
+		"frozen/meadows_4",
+		"frozen/meadows_5",
+        "frozen/mountain_small",
+        "frozen/mountain_medium",
+        "frozen/mountain_big",
+        "frozen/spruce_forest",
+        "frozen/spruce_forest_1",
+        "frozen/spruce_forest_2",
+        "frozen/spruce_forest_3",
+        "frozen/spruce_forest_4",
+        "frozen/spruce_forest_5"
+    ],
+    "seaBiomes": ["frozen/sea/ocean", "frozen/sea/ocean-cliffs"],
+    "shoreBiomes": ["frozen/shore/shore"],
+    "shoreBiomeZoom": 3,
+    "landBiomeZoom": 0.75,
+    "shoreHeightMin": 0,
+    "shoreHeightMax": 0,
+    "shoreHeightZoom": 1
+}

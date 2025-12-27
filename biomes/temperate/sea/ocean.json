@@ -1,0 +1,82 @@
+{
+    "name": "Temperate Ocean",
+    "color": "#103140",
+    "children": ["temperate/sea/ocean-cliffs"],
+    "derivative": "OCEAN",
+    "vanillaDerivative": "OCEAN",
+    "generators": [{
+        "min": -32,
+        "max": -15,
+        "generator": "mountain"
+    }],
+    "layers": [
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.18,
+            "palette": [
+                {"block": "minecraft:sand", "weight": 2},
+                {"block": "minecraft:clay", "weight": 1},
+                {"block": "minecraft:gravel", "weight": 9},
+                {"block": "blocks_expansion:seastone", "weight": 1}
+            ]
+        },
+        {"palette": [{"block": "minecraft:dirt"}]}
+    ],
+    "decorators": [
+        {
+            "chance": 9.0E-4,
+            "variance": {"style": "STATIC"},
+            "zoom": 1,
+            "palette": [
+                {"block": "minecraft:soul_sand"},
+                {
+                    "weight": 2,
+                    "block": "minecraft:magma_block"
+                }
+            ],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.02,
+            "variance": {"style": "STATIC"},
+            "zoom": 5,
+            "palette": [{"block": "minecraft:seagrass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.018,
+            "verticalZoom": 3,
+            "variance": {"style": "STATIC"},
+            "stackMax": 9,
+            "zoom": 1,
+            "palette": [{"block": "minecraft:kelp_plant"}],
+            "style": {"style": "STATIC"},
+            "heightVariance": {"style": "STATIC"},
+            "stackMin": 1
+        },
+        {
+            "chance": 0.01,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.25,
+            "palette": [
+                {"block": "minecraft:fire_coral"},
+                {"block": "minecraft:dead_fire_coral"},
+                {"block": "minecraft:fire_coral_fan"}
+            ],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.001,
+            "variance": {"style": "STATIC"},
+            "zoom": 1,
+            "palette": [{
+                "data": {
+                    "waterlogged": true,
+                    "pickles": 1
+                },
+                "block": "minecraft:sea_pickle"
+            }],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "name": "Badlands",
+    "color": "#B06F27",
+    "rarity": 1,
+    "children": ["mesa/badlands"],
+    "customDerivitives": [{
+        "id": "badlands",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 25,
+        "max": 50,
+        "generator": "meadows"
+    }
+    ],
+    "biomeZoom": 0.75,
+    "biomeStyle": {"style": "FLAT"},
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:white_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:light_gray_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:gray_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:black_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:brown_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:red_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:orange_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:yellow_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:lime_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:green_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:cyan_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:light_blue_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:blue_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:purple_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:magenta_terracotta"}]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 3,
+            "palette": [{"block": "minecraft:pink_terracotta"}]
+        }
+    ],
+
+    "decorators": [{
+        "chance": 0.05,
+        "palette": [{"block": "minecraft:tall_grass"}]
+    }],
+    "lockLayers": true
+}

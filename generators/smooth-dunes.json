@@ -1,0 +1,65 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_9",
+        "horizontalScale": 4
+    },
+    "seed": 5125512,
+    "composite": [
+        {
+            "seed": 98563,
+            "style": {
+                "style": "NOWHERE",
+                "zoom": 0.45
+            },
+            "exponent": 1
+        },
+        {
+            "seed": 23432,
+            "style": {
+                "style": "FRACTAL_FBM_SIMPLEX",
+                "fracture": {
+                    "style": "FLAT",
+                    "zoom": 0.65,
+                    "exponent": 0.4,
+                    "multiplier": 0.5
+                }
+            },
+
+            "exponent": 2,
+            "zoom": 0.45,
+            "negative": false
+        },
+        {
+            "seed": 23432,
+            "style": {
+                "style": "PERLIN",
+                "fracture": {
+                    "style": "BIOCTAVE_FRACTAL_BILLOW_PERLIN",
+                    "zoom": 0.45,
+                    "exponent": 2,
+                    "multiplier": 5
+                }
+            },
+
+            "exponent": 4,
+            "zoom": 0.15,
+            "negative": false
+        },
+        {
+            "seed": 23432,
+            "style": {
+                "style": "BIOCTAVE_FRACTAL_CUBIC",
+                "fracture": {
+                    "style": "FLAT",
+                    "zoom": 0.15,
+                    "exponent": 1,
+                    "multiplier": 1
+                }
+            },
+
+            "exponent": 2,
+            "zoom": 0.15,
+            "negative": false
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "name": "Spruce Forest",
+    "color": "#B06F27",
+    "rarity": 1,
+    "children": ["frozen/spruce_forest"],
+    "customDerivitives": [{
+        "id": "frozen_spruce_forest",
+        "grassColor": "#03eaff",
+        "waterColor": "#48abf7",
+        "downfallType": "snow",
+        "category": "icy",
+        "temperature": -3
+    }],
+    "generators": [
+    {
+        "min": 9,
+        "max": 14,
+        "generator": "smooth-dunes"
+    }
+    ],
+    "biomeZoom": 0.5,
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "maxHeight": 4,
+            "minHeight": 3,
+            "palette": [{"block": "minecraft:snow_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "density": 5,
+            "chance": 1,
+            "snow": 0.2,
+            "place": [
+                "trees/spruce/forest/1",
+                "trees/spruce/forest/2",
+                "trees/spruce/forest/3",
+                "trees/spruce/forest/4",
+                "trees/spruce/forest/5",
+                "trees/spruce/forest/6",
+                "trees/spruce/forest/7",
+                "trees/spruce/forest/8"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 2,
+            "chance": 0.45,
+            "place": [
+                "trees/spruce/forest/bushes/1",
+                "trees/spruce/forest/bushes/2",
+                "trees/spruce/forest/bushes/3",
+                "trees/spruce/forest/bushes/4",
+                "trees/spruce/forest/bushes/5",
+                "trees/spruce/forest/bushes/6",
+                "trees/spruce/forest/bushes/7"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.001,
+            "palette": [
+                {"block": "extracraft:icy_iris_placed"}
+            ]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.1,
+            "palette": [
+                {"block": "minecraft:snow"}
+            ]
+        }
+    ]
+}

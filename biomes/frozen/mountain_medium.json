@@ -1,0 +1,57 @@
+{
+    "name": "Medium Mountain",
+    "color": "#B06F27",
+    "rarity": 18,
+    "children": ["frozen/mountain_small"],
+    "customDerivitives": [{
+        "id": "mountain",
+        "grassColor": "#03eaff",
+        "foliageColor": "#29e639",
+        "waterColor": "#48abf7",
+        "downfallType": "snow",
+        "category": "icy",
+        "temperature": -3
+    }],
+    "generators": [
+    {
+        "min": 32,
+        "max": 40,
+        "generator": "mountain-cliffs"
+    }
+    ],
+    "biomeZoom": 1.25,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "palette": [
+            {"block": "minecraft:snow_block"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:snow","weight": 3},
+            {"block": "minecraft:air", "weight": 1}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "maxHeight": 4,
+            "minHeight": 3,
+            "palette": [{"block": "minecraft:snow_block"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:stone"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ]
+}

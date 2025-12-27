@@ -1,0 +1,56 @@
+{
+    "name": "Medium Mountain",
+    "color": "#B06F27",
+    "rarity": 6,
+    "children": ["temperate/mountain_small"],
+    "customDerivitives": [{
+        "id": "mountain",
+        "grassColor": "#339c58",
+        "foliageColor": "#29e639",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 32,
+        "max": 40,
+        "generator": "mountain-cliffs"
+    }
+    ],
+    "biomeZoom": 2,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:stone"}]
+        },
+        {
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 0},
+            "chance": 0.01,
+            "place": [
+                "trees/oak/1",
+                "trees/oak/2",
+                "trees/oak/3"
+            ]
+        }
+    ]
+}

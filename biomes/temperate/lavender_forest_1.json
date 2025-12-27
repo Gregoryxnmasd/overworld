@@ -1,0 +1,98 @@
+{
+    "name": "Lavender Forest",
+    "color": "#B06F27",
+    "rarity": 7,
+    "children": ["temperate/lavender_forest"],
+    "customDerivitives": [{
+        "id": "lavender_forest",
+        "grassColor": "#DF9AE6",
+        "foliageColor": "#62e620",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 22,
+        "max": 36,
+        "generator": "mountain"
+    }
+    ],
+    "biomeZoom": 5,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 6,
+            "maxHeight": 18,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "density": 10,
+            "chance": 1,
+            "place": [
+                "trees/lavender/1",
+                "trees/lavender/2",
+                "trees/lavender/3",
+                "trees/lavender/4",
+                "trees/lavender/5",
+                "trees/lavender/6",
+                "trees/lavender/7",
+                "trees/lavender/8",
+                "trees/lavender/9",
+                "trees/lavender/10"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.17,
+            "chance": 0.3,
+            "palette": [
+                {"block": "extracraft:lavender_placed"},
+                {"block": "extracraft:lavender_alt_placed"},
+                {"block": "extracraft:white_lavender_placed"},
+                {"block": "extracraft:white_lavender_alt_placed"}
+            ]
+        },
+        {
+            "chance": 0.15,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.15,
+            "palette": [{"block": "minecraft:short_grass"}],
+            "style": {"style": "STATIC"}
+        },
+        {
+            "chance": 0.005,
+            "variance": {"style": "STATIC"},
+            "zoom": 0.15,
+            "palette": [{"block": "minecraft:tall_grass"}],
+            "style": {"style": "STATIC"}
+        }
+    ]
+}

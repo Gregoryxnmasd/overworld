@@ -1,0 +1,25 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_9",
+        "horizontalScale": 12
+    },
+    "seed": 2343,
+    "composite": [{
+        "seed": 2344,
+        "style": {"style": "FLAT"}
+    }],
+    "cliffHeightMax": 110,
+    "cliffHeightMin": 80,
+    "cliffHeightGenerator": {
+        "style": {
+            "style": "NOWHERE",
+            "zoom": 0.9,
+            "fracture": {
+                "style": "NOWHERE",
+                "zoom": 0.4,
+                "multiplier": 3
+            }
+        },
+        "seed": 50056
+    }
+}

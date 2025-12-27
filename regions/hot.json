@@ -1,0 +1,37 @@
+{
+    "name": "Hot",
+    "color": "#D1CD44",
+    "rarity": 2,
+    "lakeStyle":{
+        "style": "PERLIN",
+        "zoom": 1
+    },
+    "seaBiomeZoom": 4,
+    "landBiomes": [
+        "hot/desert",
+        "hot/desert_1",
+        "hot/desert_2",
+        "hot/desert_3",
+        "hot/desert_4",
+        "hot/desert_5",
+        "hot/oasis",
+        "hot/oasis_1",
+        "hot/oasis_2",
+        "hot/oasis_3",
+        "hot/oasis_4",
+        "hot/oasis_5",
+        "hot/savanna",
+        "hot/savanna_1",
+        "hot/savanna_2",
+        "hot/savanna_3",
+        "hot/savanna_4",
+        "hot/savanna_5"
+    ],
+    "seaBiomes": ["hot/sea/ocean", "hot/sea/ocean-cliffs"],
+    "shoreBiomes": ["hot/shore/beach"],
+    "shoreBiomeZoom": 4,
+    "landBiomeZoom": 4,
+    "shoreHeightMin": 0,
+    "shoreHeightMax": 2,
+    "shoreHeightZoom": 0.1
+}

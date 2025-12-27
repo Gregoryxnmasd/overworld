@@ -1,0 +1,42 @@
+{
+    "name": "Temperate River",
+    "color": "#081820",
+    "rarity": 1,
+    "derivative": "RIVER",
+    "vanillaDerivative": "RIVER",
+    "generators": [{
+        "min": -19,
+        "max": -13,
+        "generator": "mountain"
+    }],
+    "biomeStyle":{
+        "zoom": 1,
+        "style": "VASCULAR",
+        "imageMap":{"image": "prototype-rivers"},
+        "exponent": 50
+    },
+    "layers": [
+        {
+            "style": {"style": "CELLULAR"},
+            "zoom": 0.18,
+            "palette": [
+                {"block": "minecraft:sand", "weight": 2},
+                {"block": "minecraft:clay", "weight": 1},
+                {"block": "minecraft:gravel", "weight": 9}
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:sand"},
+                {"block": "minecraft:brown_terracotta"},
+                {
+                    "weight": 2,
+                    "block": "minecraft:sand"
+                }
+            ]
+        }
+    ]
+}

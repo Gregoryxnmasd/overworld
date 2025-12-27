@@ -1,0 +1,156 @@
+{
+    "name": "Flowery Meadows",
+    "color": "#B06F27",
+    "rarity": 4,
+    "children": ["temperate/flowery_meadows"],
+    "customDerivitives": [{
+        "id": "flowery_meadows",
+        "grassColor": "#22d11f",
+        "foliageColor": "#29e639",
+        "skyColor": "#439ffa",
+        "fogColor": "#b3d9ff",
+        "waterColor": "#48abf7",
+        "downfallType": "rain"
+    }],
+    "generators": [
+    {
+        "min": 4,
+        "max": 10,
+        "generator": "plain-cliffs"
+    }
+    ],
+    "biomeZoom": 1,
+    "wall": {
+        "style": {"style": "STATIC"},
+        "slopeCondition":{"minimumSlope": 3},
+        "palette": [
+            {"block": "minecraft:stone", "weight": 3},
+            {"block": "minecraft:andesite"}
+        ]
+    },
+    "layers": [
+        {
+            "style": {"style": "STATIC"},
+            "zoom": 0.75,
+            "palette": [{"block": "minecraft:grass_block"}]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [{"block": "minecraft:dirt"}]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 30,
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:stone"},
+                {"block": "minecraft:andesite"},
+                {"block": "minecraft:stone"}
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "translate":{"y": 1},
+            "chance": 0.025,
+            "place": [
+                "trees/oak/1",
+                "trees/oak/2",
+                "trees/oak/3"
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.175,
+            "variance": {
+                "style": "TRIOCTAVE_SIMPLEX",
+                "zoom": 0.5,
+                "fracture": {
+                    "style": "STATIC",
+                    "zoom": 0.2,
+                    "multiplier": 1
+                }
+            },
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:dandelion"},
+                {"block": "minecraft:poppy"},
+                {"block": "minecraft:blue_orchid"},
+                {"block": "minecraft:allium"},
+                {"block": "minecraft:azure_bluet"},
+                {"block": "minecraft:red_tulip"},
+                {"block": "minecraft:orange_tulip"},
+                {"block": "minecraft:white_tulip"},
+                {"block": "minecraft:pink_tulip"},
+                {"block": "minecraft:oxeye_daisy"},
+                {"block": "minecraft:cornflower"},
+                {"block": "minecraft:lily_of_the_valley"},
+                {"block": "minecraft:lilac"},
+                {"block": "minecraft:rose_bush"},
+                {"block": "minecraft:sunflower"},
+                {"block": "extracraft:blue_hydrangea_placed"},
+                {"block": "extracraft:burning_blossom_placed"},
+                {"block": "extracraft:lavender_placed"},
+                {"block": "extracraft:lavender_alt_placed"},
+                {"block": "extracraft:orange_cosmos_placed"},
+                {"block": "extracraft:pink_daffodil_placed"},
+                {"block": "extracraft:violet_placed"},
+                {"block": "extracraft:goldenrod_placed"},
+                {"block": "extracraft:white_lavender_placed"},
+                {"block": "extracraft:white_lavender_alt_placed"}
+            ]
+        },
+        {
+            "chance": 0.25,
+            "variance": {
+                "style": "STATIC",
+                "zoom": 1.4,
+                "fracture": {
+                    "style": "STATIC",
+                    "zoom": 0.5,
+                    "multiplier": 10
+                }
+            },
+            "style": {"style": "STATIC"},
+            "whitelist": [{"block": "minecraft:grass_block"}],
+            "palette": [
+                {"block": "extracraft:white_petals_placed"},
+                {"block": "extracraft:wildflower_placed"}
+            ]
+        },
+        {
+            "chance": 0.25,
+            "variance": {
+                "style": "STATIC",
+                "zoom": 1,
+                "fracture": {
+                    "style": "STATIC",
+                    "zoom": 1,
+                    "multiplier": 3
+                }
+            },
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:short_grass"}
+            ]
+        },
+        {
+            "chance": 0.035,
+            "variance": {
+                "style": "STATIC",
+                "zoom": 1,
+                "fracture": {
+                    "style": "STATIC",
+                    "zoom": 1,
+                    "multiplier": 3
+                }
+            },
+            "style": {"style": "STATIC"},
+            "palette": [
+                {"block": "minecraft:tall_grass"}
+            ]
+        }
+    ]
+}

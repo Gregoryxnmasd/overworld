@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="0dacd8c1-6f23-477c-b126-c988d69cc075">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="0dacd8c1-6f23-477c-b126-c988d69cc075"/>
+              <option name="name" value="snippet/palette"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/palette-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/palette"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="1d851012-ba0b-4d73-9dbd-2aae3e10819a">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="1d851012-ba0b-4d73-9dbd-2aae3e10819a"/>
+              <option name="name" value="blocks"/>
+              <option name="relativePathToSchema" value="./.iris/schema/blocks-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="blocks"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="25102612-05a0-47b1-86ed-ca5d453627ea">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="25102612-05a0-47b1-86ed-ca5d453627ea"/>
+              <option name="name" value="snippet/object-marker"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-marker-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-marker"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="01307004-403e-4e88-9daa-76ce1963ffed">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="01307004-403e-4e88-9daa-76ce1963ffed"/>
+              <option name="name" value="snippet/generator"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/generator-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/generator"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="3bec5141-3eb7-4d1f-bc15-c0ec29316592">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="3bec5141-3eb7-4d1f-bc15-c0ec29316592"/>
+              <option name="name" value="snippet/object-replacer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-replacer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-replacer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="90e5620e-040d-4f75-b30a-f44243741682">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="90e5620e-040d-4f75-b30a-f44243741682"/>
+              <option name="name" value="snippet/object-limit"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-limit-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-limit"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="53af1772-103d-4edc-adf6-aee9999dc8b7">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="53af1772-103d-4edc-adf6-aee9999dc8b7"/>
+              <option name="name" value="jigsaw-structures"/>
+              <option name="relativePathToSchema" value="./.iris/schema/jigsaw-structures-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="jigsaw-structures"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="807c499b-07bc-40b9-a1ed-e597a4f8411e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="807c499b-07bc-40b9-a1ed-e597a4f8411e"/>
+              <option name="name" value="snippet/dimension-mode"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/dimension-mode-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/dimension-mode"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="62dd573c-dba6-43a3-81ba-6e52d4670e5a">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="62dd573c-dba6-43a3-81ba-6e52d4670e5a"/>
+              <option name="name" value="snippet/matter-placer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/matter-placer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/matter-placer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="44501969-f9cc-48a0-b86b-941feb61d51b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="44501969-f9cc-48a0-b86b-941feb61d51b"/>
+              <option name="name" value="snippet/cave-placer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/cave-placer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/cave-placer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="abf1e309-7f17-4c62-9ed7-e1327bef16db">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="abf1e309-7f17-4c62-9ed7-e1327bef16db"/>
+              <option name="name" value="snippet/object-loot"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-loot-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-loot"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="2f781f67-45b4-4447-8861-81c55f481338">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="2f781f67-45b4-4447-8861-81c55f481338"/>
+              <option name="name" value="snippet/custom-biome"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/custom-biome-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/custom-biome"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="374a9adf-2af4-48a3-bd8b-620f1f385ec3">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="374a9adf-2af4-48a3-bd8b-620f1f385ec3"/>
+              <option name="name" value="snippet/custom-biome-particle"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/custom-biome-particle-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/custom-biome-particle"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="9557332a-4feb-4f7f-b424-4901d825c085">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="9557332a-4feb-4f7f-b424-4901d825c085"/>
+              <option name="name" value="snippet/effect"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/effect-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/effect"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="ccf8b1b2-5d83-4866-abd5-2193e4c5338c">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="ccf8b1b2-5d83-4866-abd5-2193e4c5338c"/>
+              <option name="name" value="snippet/expression-load"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/expression-load-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/expression-load"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="3c78f659-ae69-4d94-97b0-4b3b0dba6d84">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="3c78f659-ae69-4d94-97b0-4b3b0dba6d84"/>
+              <option name="name" value="snippet/carving-elipsoid"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/carving-elipsoid-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/carving-elipsoid"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="58a5b285-3889-41fd-99f5-95e7176a4334">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="58a5b285-3889-41fd-99f5-95e7176a4334"/>
+              <option name="name" value="regions"/>
+              <option name="relativePathToSchema" value="./.iris/schema/regions-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="regions"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="05079624-6048-42cb-9831-40a53d272a7a">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="05079624-6048-42cb-9831-40a53d272a7a"/>
+              <option name="name" value="dimensions"/>
+              <option name="relativePathToSchema" value="./.iris/schema/dimensions-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="dimensions"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="4842c98e-6d52-4566-bfa9-dbedb24aaca3">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="4842c98e-6d52-4566-bfa9-dbedb24aaca3"/>
+              <option name="name" value="snippet/noise-style-replacer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/noise-style-replacer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/noise-style-replacer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="78a16dbe-c436-4753-81b5-06fb5ba8dcc8">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="78a16dbe-c436-4753-81b5-06fb5ba8dcc8"/>
+              <option name="name" value="snippet/expression-function"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/expression-function-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/expression-function"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="b4ca188a-444f-4af1-a710-0289c6a032c5">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="b4ca188a-444f-4af1-a710-0289c6a032c5"/>
+              <option name="name" value="snippet/carving-pyramid"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/carving-pyramid-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/carving-pyramid"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="73806a12-4e24-4eee-b622-a8d5d6d268f6">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="73806a12-4e24-4eee-b622-a8d5d6d268f6"/>
+              <option name="name" value="jigsaw-pools"/>
+              <option name="relativePathToSchema" value="./.iris/schema/jigsaw-pools-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="jigsaw-pools"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="dc4c67d9-f518-4029-8359-9028beb29e70">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="dc4c67d9-f518-4029-8359-9028beb29e70"/>
+              <option name="name" value="snippet/biome-replacer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/biome-replacer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/biome-replacer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="ff7f89a6-6e3a-4569-8ad7-ce24fd35461b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="ff7f89a6-6e3a-4569-8ad7-ce24fd35461b"/>
+              <option name="name" value="expressions"/>
+              <option name="relativePathToSchema" value="./.iris/schema/expressions-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="expressions"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="9a92f274-8791-4ec1-a04a-ae9d400bfd52">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="9a92f274-8791-4ec1-a04a-ae9d400bfd52"/>
+              <option name="name" value="snippet/duration"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/duration-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/duration"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="92177ff4-52f1-4bb8-aae3-37c52c26d4b7">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="92177ff4-52f1-4bb8-aae3-37c52c26d4b7"/>
+              <option name="name" value="snippet/object-translator"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-translator-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-translator"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="1fa3c8ed-11c0-494c-9dd5-95f0ea15651b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="1fa3c8ed-11c0-494c-9dd5-95f0ea15651b"/>
+              <option name="name" value="snippet/axis-rotation"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/axis-rotation-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/axis-rotation"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="020e3f26-9422-4179-a0f4-e359588e23a2">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="020e3f26-9422-4179-a0f4-e359588e23a2"/>
+              <option name="name" value="snippet/connector"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/connector-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/connector"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="828d47e0-4044-4854-931a-22ac993f9203">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="828d47e0-4044-4854-931a-22ac993f9203"/>
+              <option name="name" value="snippet/object-placement-biome-injector"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-placement-biome-injector-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-placement-biome-injector"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="071164ae-3781-47d4-946d-8644d9d5df8e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="071164ae-3781-47d4-946d-8644d9d5df8e"/>
+              <option name="name" value="snippet/villager-trade"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/villager-trade-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/villager-trade"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="984c7321-4762-4f4c-a212-0b97a7b30e8e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="984c7321-4762-4f4c-a212-0b97a7b30e8e"/>
+              <option name="name" value="snippet/position-3d"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/position-3d-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/position-3d"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="b7e2876c-c9dd-44a3-b438-2915b8396e44">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="b7e2876c-c9dd-44a3-b438-2915b8396e44"/>
+              <option name="name" value="snippet/position-2d"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/position-2d-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/position-2d"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="811f6e74-2b4f-4a47-b5b7-44ba69f5a38e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="811f6e74-2b4f-4a47-b5b7-44ba69f5a38e"/>
+              <option name="name" value="snippet/shaped-style"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/shaped-style-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/shaped-style"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="4db29d7d-2dc3-4f29-bcfc-601575c021d4">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="4db29d7d-2dc3-4f29-bcfc-601575c021d4"/>
+              <option name="name" value="snippet/carving"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/carving-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/carving"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="7dc7a372-009e-4824-a6b1-8c17f46ae9b8">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="7dc7a372-009e-4824-a6b1-8c17f46ae9b8"/>
+              <option name="name" value="snippet/cave-shape"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/cave-shape-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/cave-shape"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="714f378a-8249-49a7-bcad-233637e2207d">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="714f378a-8249-49a7-bcad-233637e2207d"/>
+              <option name="name" value="snippet/object-block-replacer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-block-replacer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-block-replacer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="c0a21b5c-c3fa-4c33-b419-9b2e45f5c7c9">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="c0a21b5c-c3fa-4c33-b419-9b2e45f5c7c9"/>
+              <option name="name" value="generators"/>
+              <option name="relativePathToSchema" value="./.iris/schema/generators-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="generators"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="16565a90-1bf7-4138-b214-aeb1ba7a82db">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="16565a90-1bf7-4138-b214-aeb1ba7a82db"/>
+              <option name="name" value="biomes"/>
+              <option name="relativePathToSchema" value="./.iris/schema/biomes-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="biomes"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="83a396b5-c906-4de2-bb52-380dec9d6c35">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="83a396b5-c906-4de2-bb52-380dec9d6c35"/>
+              <option name="name" value="snippet/color"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/color-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/color"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="eea51eb6-c483-4107-b792-ac160986a9b3">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="eea51eb6-c483-4107-b792-ac160986a9b3"/>
+              <option name="name" value="snippet/range"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/range-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/range"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="2affedce-a591-447f-a20e-e42f03562566">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="2affedce-a591-447f-a20e-e42f03562566"/>
+              <option name="name" value="snippet/ravine-placer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/ravine-placer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/ravine-placer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="78f254f3-c65b-4d72-b6bd-2b1392bda28e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="78f254f3-c65b-4d72-b6bd-2b1392bda28e"/>
+              <option name="name" value="snippet/loot"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/loot-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/loot"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="f0ebe67f-876d-4c74-993e-07d09ccc40f5">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="f0ebe67f-876d-4c74-993e-07d09ccc40f5"/>
+              <option name="name" value="snippet/loot-registry"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/loot-registry-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/loot-registry"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="39b596cb-1cfa-44d5-bb46-b19dfed14301">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="39b596cb-1cfa-44d5-bb46-b19dfed14301"/>
+              <option name="name" value="snippet/biome-injector"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/biome-injector-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/biome-injector"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="39a66c1c-6370-423a-90f7-1231ff17aef6">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="39a66c1c-6370-423a-90f7-1231ff17aef6"/>
+              <option name="name" value="snippet/potion-effect"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/potion-effect-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/potion-effect"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="a66db363-6b83-4c1e-87af-dc5678b1e127">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="a66db363-6b83-4c1e-87af-dc5678b1e127"/>
+              <option name="name" value="snippet/command"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/command-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/command"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="94ef267b-af04-4cb8-bfe2-0f02b41c2e16">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="94ef267b-af04-4cb8-bfe2-0f02b41c2e16"/>
+              <option name="name" value="snippet/time-block"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/time-block-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/time-block"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="203d1d81-ed0f-4fd8-ba03-df58cd6d4db4">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="203d1d81-ed0f-4fd8-ba03-df58cd6d4db4"/>
+              <option name="name" value="snippet/villager-override"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/villager-override-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/villager-override"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="6cabbbe0-3606-4ac6-b812-7ec749786b91">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="6cabbbe0-3606-4ac6-b812-7ec749786b91"/>
+              <option name="name" value="snippet/rare-object"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/rare-object-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/rare-object"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="c5dec715-f2c3-487c-8e97-4766f039330c">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="c5dec715-f2c3-487c-8e97-4766f039330c"/>
+              <option name="name" value="snippet/enchantment"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/enchantment-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/enchantment"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="23ef6783-56a5-4453-97b6-85040592af12">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="23ef6783-56a5-4453-97b6-85040592af12"/>
+              <option name="name" value="snippet/image-map"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/image-map-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/image-map"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="6e4ad289-bd63-4a2a-a522-282c16e411bb">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="6e4ad289-bd63-4a2a-a522-282c16e411bb"/>
+              <option name="name" value="snippet/region-replacer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/region-replacer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/region-replacer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="92cf04af-38f6-4a54-9e17-71753b5f785d">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="92cf04af-38f6-4a54-9e17-71753b5f785d"/>
+              <option name="name" value="snippet/custom-biome-spawn"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/custom-biome-spawn-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/custom-biome-spawn"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="a3ecac76-38fe-4455-aaaf-198a51d5379a">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="a3ecac76-38fe-4455-aaaf-198a51d5379a"/>
+              <option name="name" value="snippet/style-range"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/style-range-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/style-range"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="a54dea43-3c01-4d7e-b950-551a8169b86b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="a54dea43-3c01-4d7e-b950-551a8169b86b"/>
+              <option name="name" value="snippet/attribute-modifier"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/attribute-modifier-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/attribute-modifier"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="9e2a4380-3aef-497d-bb8f-35e8cfdfab08">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="9e2a4380-3aef-497d-bb8f-35e8cfdfab08"/>
+              <option name="name" value="snippet/object-scale"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-scale-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-scale"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="b0eb39f0-f93f-470e-ba54-80b2f99fa381">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="b0eb39f0-f93f-470e-ba54-80b2f99fa381"/>
+              <option name="name" value="markers"/>
+              <option name="relativePathToSchema" value="./.iris/schema/markers-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="markers"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="7e37f7c9-bdaf-42a4-bbf2-39cf4a711ee5">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="7e37f7c9-bdaf-42a4-bbf2-39cf4a711ee5"/>
+              <option name="name" value="snippet/command-registry"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/command-registry-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/command-registry"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="1e96f52e-e072-408f-b85f-8069e8170890">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="1e96f52e-e072-408f-b85f-8069e8170890"/>
+              <option name="name" value="snippet/slope-clip"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/slope-clip-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/slope-clip"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="fe834f85-6f13-45b9-9bd3-286db8ce03cc">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="fe834f85-6f13-45b9-9bd3-286db8ce03cc"/>
+              <option name="name" value="snippet/object-vanilla-loot"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-vanilla-loot-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-vanilla-loot"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="cd2564c2-ceea-43d9-b8ba-d6700c4e99ca">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="cd2564c2-ceea-43d9-b8ba-d6700c4e99ca"/>
+              <option name="name" value="snippet/worm"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/worm-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/worm"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="d4b81b21-3c9c-4bf5-9bce-d03a8318fff7">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="d4b81b21-3c9c-4bf5-9bce-d03a8318fff7"/>
+              <option name="name" value="snippet/carving-sphere"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/carving-sphere-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/carving-sphere"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="68355721-b11a-4e39-91c1-1afff57453ce">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="68355721-b11a-4e39-91c1-1afff57453ce"/>
+              <option name="name" value="spawners"/>
+              <option name="relativePathToSchema" value="./.iris/schema/spawners-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="spawners"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="acac04fd-5d0a-41e5-a4bd-4e28a81f6231">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="acac04fd-5d0a-41e5-a4bd-4e28a81f6231"/>
+              <option name="name" value="snippet/decorator"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/decorator-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/decorator"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="35f8ae78-5ad0-4424-8537-2b67293c8b64">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="35f8ae78-5ad0-4424-8537-2b67293c8b64"/>
+              <option name="name" value="snippet/object-placement-region-injector"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-placement-region-injector-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-placement-region-injector"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="7697e8b9-09d5-4df7-b1c0-80f339293758">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="7697e8b9-09d5-4df7-b1c0-80f339293758"/>
+              <option name="name" value="ravines"/>
+              <option name="relativePathToSchema" value="./.iris/schema/ravines-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="ravines"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="6a12ac22-fbb8-4226-b53a-9d19309ff390">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="6a12ac22-fbb8-4226-b53a-9d19309ff390"/>
+              <option name="name" value="snippet/tree-settings"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/tree-settings-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/tree-settings"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="429e4640-b9fa-491e-a304-42a2e5a6b716">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="429e4640-b9fa-491e-a304-42a2e5a6b716"/>
+              <option name="name" value="snippet/river"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/river-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/river"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="8245b059-f957-42df-8755-59f0187f0d77">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="8245b059-f957-42df-8755-59f0187f0d77"/>
+              <option name="name" value="snippet/object-placer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-placer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-placer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="387d8173-6557-42bd-a428-34b41a35e1e4">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="387d8173-6557-42bd-a428-34b41a35e1e4"/>
+              <option name="name" value="snippet/interpolator-3d"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/interpolator-3d-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/interpolator-3d"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="2afdad12-bf0a-4342-ba2e-d110f25cd165">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="2afdad12-bf0a-4342-ba2e-d110f25cd165"/>
+              <option name="name" value="mods"/>
+              <option name="relativePathToSchema" value="./.iris/schema/mods-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="mods"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="ec95b8d7-3285-4284-9a2b-9a00703d8719">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="ec95b8d7-3285-4284-9a2b-9a00703d8719"/>
+              <option name="name" value="snippet/jigsaw-structure-min-distance"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/jigsaw-structure-min-distance-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/jigsaw-structure-min-distance"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="28e2a1b0-ea67-44d2-8ac0-0da3cd98f9cf">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="28e2a1b0-ea67-44d2-8ac0-0da3cd98f9cf"/>
+              <option name="name" value="jigsaw-pieces"/>
+              <option name="relativePathToSchema" value="./.iris/schema/jigsaw-pieces-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="jigsaw-pieces"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="fcd39161-106e-4c50-a2e0-3ffefb4f0464">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="fcd39161-106e-4c50-a2e0-3ffefb4f0464"/>
+              <option name="name" value="snippet/block-drops"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/block-drops-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/block-drops"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="306cec84-83f7-4441-8a63-8e1b452d47c8">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="306cec84-83f7-4441-8a63-8e1b452d47c8"/>
+              <option name="name" value="snippet/fluid-bodies"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/fluid-bodies-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/fluid-bodies"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="3f24b694-aa91-480c-af57-131ca0d13971">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="3f24b694-aa91-480c-af57-131ca0d13971"/>
+              <option name="name" value="snippet/style"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/style-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/style"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="5543cc49-abcf-4d3d-a55d-295b9100414b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="5543cc49-abcf-4d3d-a55d-295b9100414b"/>
+              <option name="name" value="snippet/generator-layer"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/generator-layer-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/generator-layer"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="4b81d6c7-e7ac-4795-9d83-467a3e6e644e">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="4b81d6c7-e7ac-4795-9d83-467a3e6e644e"/>
+              <option name="name" value="snippet/stilt-settings"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/stilt-settings-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/stilt-settings"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="3ab3e6bc-964a-4697-9c62-be2269178a00">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="3ab3e6bc-964a-4697-9c62-be2269178a00"/>
+              <option name="name" value="entities"/>
+              <option name="relativePathToSchema" value="./.iris/schema/entities-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="entities"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="d221dea7-00eb-4c96-bb6a-6acdf203ce2b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="d221dea7-00eb-4c96-bb6a-6acdf203ce2b"/>
+              <option name="name" value="snippet/rate"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/rate-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/rate"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="a3f4c50c-3509-475e-9e71-7f4792009dd2">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="a3f4c50c-3509-475e-9e71-7f4792009dd2"/>
+              <option name="name" value="snippet/object-rotator"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/object-rotator-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/object-rotator"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="a879f094-1e9a-4030-b56a-95ec5fe7120b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="a879f094-1e9a-4030-b56a-95ec5fe7120b"/>
+              <option name="name" value="snippet/deposit"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/deposit-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/deposit"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="ecb6a8bf-7d26-4950-bc6d-5ca6e097cae9">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="ecb6a8bf-7d26-4950-bc6d-5ca6e097cae9"/>
+              <option name="name" value="snippet/tree"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/tree-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/tree"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="5e295a2d-0e2d-4169-950a-637ed6e3eed5">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="5e295a2d-0e2d-4169-950a-637ed6e3eed5"/>
+              <option name="name" value="snippet/entity-spawn"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/entity-spawn-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/entity-spawn"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="afef37b5-ee5c-419a-86d7-51e82a611b0b">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="afef37b5-ee5c-419a-86d7-51e82a611b0b"/>
+              <option name="name" value="snippet/lake"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/lake-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/lake"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="2326c59d-92da-4f34-9188-939435cd10b7">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="2326c59d-92da-4f34-9188-939435cd10b7"/>
+              <option name="name" value="snippet/jigsaw-structure-placement"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/jigsaw-structure-placement-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/jigsaw-structure-placement"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="b7bfd7c3-0c4e-47d0-be58-8838ffc30569">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="b7bfd7c3-0c4e-47d0-be58-8838ffc30569"/>
+              <option name="name" value="caves"/>
+              <option name="relativePathToSchema" value="./.iris/schema/caves-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="caves"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="7a65ea96-23ec-4ffc-9997-80010a4b017a">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="7a65ea96-23ec-4ffc-9997-80010a4b017a"/>
+              <option name="name" value="loot"/>
+              <option name="relativePathToSchema" value="./.iris/schema/loot-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="loot"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="8baf5f2c-1280-466c-91c0-e2105eb5ce28">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="8baf5f2c-1280-466c-91c0-e2105eb5ce28"/>
+              <option name="name" value="snippet/tree-size"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/tree-size-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/tree-size"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="5de4e556-0fdd-4739-a5df-a75b7b216aab">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="5de4e556-0fdd-4739-a5df-a75b7b216aab"/>
+              <option name="name" value="snippet/biome-palette"/>
+              <option name="relativePathToSchema" value="./.iris/schema/snippet/biome-palette-schema.json"/>
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="directory" value="true"/>
+                    <option name="path" value="snippet/biome-palette"/>
+                    <option name="mappingKind" value="Directory"/>
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

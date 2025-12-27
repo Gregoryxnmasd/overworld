@@ -1,0 +1,25 @@
+{
+    "name": "Frozen Shore",
+    "color": "#DF9F39",
+    "rarity": 1,
+    "customDerivitives": [{
+        "id": "frozen_shore",
+        "grassColor": "#03eaff",
+        "category": "icy",
+        "temperature": -3
+    }],
+    "generators": [{
+        "min": 0,
+        "max": 0,
+        "generator": "flat"
+    }],
+    "biomeZoom": 5,
+    "layers": [
+        {
+            "style": {"style": "FLAT"},
+            "zoom": 1,
+            "maxHeight": 1,
+            "palette": [{"block": "minecraft:ice"}]
+        }
+    ]
+}
