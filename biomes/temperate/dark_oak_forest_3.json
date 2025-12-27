@@ -9,13 +9,6 @@
         "waterColor": "#48abf7",
         "downfallType": "rain"
     }],
-    "generators": [
-    {
-        "min": -20,
-        "max": -8,
-        "generator": "lakes"
-    }
-    ],
     "biomeZoom": 1,
     "wall": {
         "style": {"style": "STATIC"},

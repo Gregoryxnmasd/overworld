@@ -2,10 +2,6 @@
     "name": "Mesa",
     "color": "#D1CD44",
     "rarity": 11,
-    "lakeStyle":{
-        "style": "VASCULAR",
-        "zoom": 1
-    },
     "seaBiomeZoom": 1,
     "landBiomes": [
 		"mesa/badlands",
@@ -13,8 +9,8 @@
     ],
     "seaBiomes": ["mesa/sea/river"],
     "shoreBiomes": ["mesa/shore/beach"],
-    "shoreBiomeZoom": 4,
-    "landBiomeZoom": 0.5,
+    "shoreBiomeZoom": 2,
+    "landBiomeZoom": 2.5,
     "shoreHeightMin": 0,
     "shoreHeightMax": 2,
     "shoreHeightZoom": 0.1

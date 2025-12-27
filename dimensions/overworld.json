@@ -3,14 +3,14 @@
     "environment": "NORMAL",
     "dimensionAngleDeg": 17,
     "fluidHeight": 63,
-    "continentZoom": 8,
+    "continentZoom": 9,
     "continentalStyle": {
         "style": "SIMPLEX",
         "multiplier": 23,
         "fracture": {
             "style": "IRIS_HALF",
-            "exponent": 55,
-            "zoom": 0.35
+            "exponent": 45,
+            "zoom": 0.4
         }
     },
     "logicalHeight": 256,
@@ -33,19 +33,25 @@
         "style": "CELLULAR_IRIS",
         "fracture": {
             "style": "SIMPLEX",
-            "zoom": 0.6,
-            "multiplier": 120
+            "zoom": 0.9,
+            "multiplier": 220
         }
     },
 
-    "regionZoom": 11,
+    "regionZoom": 9,
     "regions": [
         "temperate",
         "temperate",
+        "temperate",
         "tropical",
+        "tropical",
+        "temperate",
         "hot",
+        "temperate",
         "mesa",
-        "frozen"
+        "temperate",
+        "frozen",
+        "temperate"
     ],
 
     "seaBiomeStyle": {
