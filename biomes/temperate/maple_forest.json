@@ -114,7 +114,58 @@
                 "trees/red_maple/5",
                 "trees/red_maple/6",
                 "trees/red_maple/7",
-                "trees/red_maple/8",
+                "trees/red_maple/8"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 9,
+            "chance": 1,
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:note_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "place": [
                 "trees/orange_maple/1",
                 "trees/orange_maple/2",
                 "trees/orange_maple/3",
@@ -122,7 +173,58 @@
                 "trees/orange_maple/5",
                 "trees/orange_maple/6",
                 "trees/orange_maple/7",
-                "trees/orange_maple/8",
+                "trees/orange_maple/8"
+            ]
+        },
+        {
+            "translate":{"y": 1},
+            "density": 9,
+            "chance": 1,
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:brown_mushroom_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:note_block"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "extracraft:maple_log"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "place": [
                 "trees/yellow_maple/1",
                 "trees/yellow_maple/2",
                 "trees/yellow_maple/3",
