@@ -59,7 +59,7 @@
             "min": -6,
             "max": 6,
             "generator": {
-                "zoom": 3.5,
+                "zoom": 2.2,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
@@ -67,7 +67,7 @@
             "min": -6,
             "max": 6,
             "generator": {
-                "zoom": 0.45,
+                "zoom": 0.8,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
@@ -75,7 +75,7 @@
             "min": -12,
             "max": 12,
             "generator": {
-                "zoom": 3.45,
+                "zoom": 2.1,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         }

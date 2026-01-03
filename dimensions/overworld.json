@@ -65,7 +65,7 @@
     {
         "breakSurface": true,
         "cave": "simple/surface",
-        "rarity": 8,
+        "rarity": 40,
         "caveStartHeight": {
             "max": 256,
             "min": 60,
@@ -121,72 +121,82 @@
             "min": 20,
             "style": {"style": "STATIC"}
         }
+    },
+    {
+        "breakSurface": false,
+        "cave": "simple/ravine",
+        "rarity": 120,
+        "caveStartHeight": {
+            "max": 48,
+            "min": 0,
+            "style": {"style": "STATIC"}
+        }
     }
     ]},
     "ores": [
         {
             "threshold": 1,
-            "range": {"min": 0, "max": 0},
+            "range": {"min": -64, "max": -64},
             "palette": {"palette": [{"block": "minecraft:bedrock"}]},
             "chanceStyle": {"style": "FLAT"}
         },
           {
             "threshold": 0.625,
-            "range": {"min": 1, "max": 1},
+            "range": {"min": -63, "max": -63},
             "palette": {"palette": [{"block": "minecraft:bedrock"}]},
             "chanceStyle": "snippet/style/bedrock"
         },
         {
             "threshold": 0.35,
-            "range": {"min": 2, "max": 4},
+            "range": {"min": -62, "max": -60},
             "palette": {"palette": [{"block": "minecraft:bedrock"}]},
             "chanceStyle": "snippet/style/bedrock"
         },
         {
             "threshold": 1,
-            "range": {"min": 1, "max": 57},
+            "range": {"min": -59, "max": -1},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": {"style": "FLAT"}
         },
         {
             "threshold": 0.874,
-            "range": {"min": 58, "max": 58},
+            "range": {"min": 0, "max": 0},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.75,
-            "range": {"min": 59, "max": 59},
+            "range": {"min": 1, "max": 1},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.625,
-            "range": {"min": 60, "max": 60},
+            "range": {"min": 2, "max": 2},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.5,
-            "range": {"min": 61, "max": 61},
+            "range": {"min": 3, "max": 3},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.375,
-            "range": {"min": 62, "max": 62},
+            "range": {"min": 4, "max": 4},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.25,
-            "range": {"min": 63, "max": 63},
+            "range": {"min": 5, "max": 5},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         },
         {
             "threshold": 0.125,
-            "range": {"min": 64, "max": 64},
+            "range": {"min": 6, "max": 6},
             "palette": {"palette": [{"block": "minecraft:deepslate"}]},
             "chanceStyle": "snippet/style/deepslate"
         }
@@ -234,12 +244,12 @@
             "varience": 24
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
-            "minPerChunk": 0,
-            "maxPerChunk": 8,
+            "minHeight": -64,
+            "maxHeight": 0,
+            "minPerChunk": 1,
+            "maxPerChunk": 10,
             "minSize": 1,
-            "maxSize": 16,
+            "maxSize": 10,
             "palette": [
                 {
                     "block": "minecraft:deepslate_copper_ore"
@@ -247,12 +257,12 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 16,
             "minPerChunk": 0,
-            "maxPerChunk": 5,
+            "maxPerChunk": 3,
             "minSize": 1,
-            "maxSize": 5,
+            "maxSize": 6,
             "palette": [
                 {
                     "block": "minecraft:deepslate_diamond_ore"
@@ -260,8 +270,8 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 48,
+            "minHeight": -64,
+            "maxHeight": 32,
             "minPerChunk": 0,
             "maxPerChunk": 2,
             "minSize": 1,
@@ -273,10 +283,10 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 32,
             "minPerChunk": 1,
-            "maxPerChunk": 4,
+            "maxPerChunk": 6,
             "minSize": 1,
             "maxSize": 8,
             "palette": [
@@ -286,10 +296,10 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 0,
             "minPerChunk": 1,
-            "maxPerChunk": 45,
+            "maxPerChunk": 30,
             "minSize": 1,
             "maxSize": 11,
             "palette": [
@@ -299,10 +309,10 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 0,
             "minPerChunk": 1,
-            "maxPerChunk": 14,
+            "maxPerChunk": 6,
             "minSize": 1,
             "maxSize": 8,
             "palette": [
@@ -312,10 +322,10 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 0,
             "minPerChunk": 0,
-            "maxPerChunk": 6,
+            "maxPerChunk": 10,
             "minSize": 1,
             "maxSize": 8,
             "palette": [
@@ -325,10 +335,10 @@
             ]
         },
         {
-            "minHeight": 5,
-            "maxHeight": 64,
+            "minHeight": -64,
+            "maxHeight": 0,
             "minPerChunk": 0,
-            "maxPerChunk": 5,
+            "maxPerChunk": 4,
             "minSize": 1,
             "maxSize": 7,
             "palette": [
@@ -339,29 +349,29 @@
             "varience": 4
         },
         {
-            "minHeight": 64,
-            "maxHeight": 384,
+            "minHeight": 0,
+            "maxHeight": 320,
             "minPerChunk": 1,
-            "maxPerChunk": 20,
+            "maxPerChunk": 28,
             "minSize": 1,
             "maxSize": 14,
             "palette": [{"block": "minecraft:coal_ore"}],
             "varience": 12
         },
         {
-            "minHeight": 64,
-            "maxHeight": 176,
+            "minHeight": 0,
+            "maxHeight": 112,
             "minPerChunk": 0,
-            "maxPerChunk": 11,
+            "maxPerChunk": 20,
             "minSize": 1,
             "maxSize": 12,
             "palette": [{"block": "minecraft:copper_ore"}],
             "varience": 14
         },
         {
-            "minHeight": 64,
-            "maxHeight": 128,
-            "maxPerChunk": 3,
+            "minHeight": 0,
+            "maxHeight": 64,
+            "maxPerChunk": 5,
             "minPerChunk": 0,
             "minSize": 1,
             "maxSize": 7,
@@ -369,9 +379,9 @@
             "varience": 3
         },
         {
-            "minHeight": 64,
-            "maxHeight": 384,
-            "maxPerChunk": 75,
+            "minHeight": 0,
+            "maxHeight": 320,
+            "maxPerChunk": 40,
             "minPerChunk": 1,
             "minSize": 1,
             "maxSize": 13,
@@ -379,9 +389,9 @@
             "varience": 26
         },
         {
-            "minHeight": 64,
-            "maxHeight": 96,
-            "maxPerChunk": 3,
+            "minHeight": 0,
+            "maxHeight": 32,
+            "maxPerChunk": 4,
             "minPerChunk": 1,
             "minSize": 1,
             "maxSize": 8,
@@ -389,9 +399,9 @@
             "varience": 1
         },
         {
-            "minHeight": 64,
-            "maxHeight": 79,
-            "maxPerChunk": 2,
+            "minHeight": 0,
+            "maxHeight": 16,
+            "maxPerChunk": 4,
             "minPerChunk": 0,
             "minSize": 1,
             "maxSize": 9,
@@ -402,9 +412,9 @@
             "varience": 2
         },
         {
-            "minHeight": 64,
-            "maxHeight": 96,
-            "maxPerChunk": 3,
+            "minHeight": 0,
+            "maxHeight": 16,
+            "maxPerChunk": 2,
             "minPerChunk": 0,
             "minSize": 1,
             "maxSize": 9,
@@ -412,8 +422,8 @@
             "varience": 4
         },
         {
-            "minHeight": 64,
-            "maxHeight": 384,
+            "minHeight": 0,
+            "maxHeight": 320,
             "maxPerChunk": 2,
             "minPerChunk": 0,
             "minSize": 1,

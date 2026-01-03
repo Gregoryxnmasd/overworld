@@ -88,16 +88,16 @@
             }
         },
         "xStyle": {
-            "min": 34,
-            "max": 66,
+            "min": -50,
+            "max": 50,
             "generator": {
                 "zoom": 0.35,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": 6,
-            "max": 15,
+            "min": -18,
+            "max": 18,
             "generator": {
                 "zoom": 0.35,
                 "style": "VASCULAR_IRIS_DOUBLE"
