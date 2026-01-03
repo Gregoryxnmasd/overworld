@@ -8,7 +8,7 @@
     "fork": {
         "caves": [
         {
-            "breakSurface": false,
+            "breakSurface": true,
             "cave": "simple/small",
             "rarity": 4
         },
@@ -18,7 +18,7 @@
             "rarity": 2
         },
         {
-            "breakSurface": false,
+            "breakSurface": true,
             "cave": "simple/small_2",
             "rarity": 3
         }

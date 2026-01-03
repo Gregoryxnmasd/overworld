@@ -2,15 +2,15 @@
     "name": "Mesa",
     "color": "#D1CD44",
     "rarity": 11,
-    "seaBiomeZoom": 1,
+    "seaBiomeZoom": 3,
     "landBiomes": [
 		"mesa/badlands",
 		"mesa/badlands_high"
     ],
     "seaBiomes": ["mesa/sea/river"],
     "shoreBiomes": ["mesa/shore/beach"],
-    "shoreBiomeZoom": 2,
-    "landBiomeZoom": 2.5,
+    "shoreBiomeZoom": 3,
+    "landBiomeZoom": 4,
     "shoreHeightMin": 0,
     "shoreHeightMax": 2,
     "shoreHeightZoom": 0.1

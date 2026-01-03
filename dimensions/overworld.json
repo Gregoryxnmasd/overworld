@@ -3,7 +3,7 @@
     "environment": "NORMAL",
     "dimensionAngleDeg": 17,
     "fluidHeight": 63,
-    "continentZoom": 9,
+    "continentZoom": 11,
     "continentalStyle": {
         "style": "SIMPLEX",
         "multiplier": 23,
@@ -38,7 +38,7 @@
         }
     },
 
-    "regionZoom": 9,
+    "regionZoom": 11,
     "regions": [
         "temperate",
         "temperate",
@@ -65,7 +65,7 @@
     {
         "breakSurface": true,
         "cave": "simple/surface",
-        "rarity": 40,
+        "rarity": 32,
         "caveStartHeight": {
             "max": 256,
             "min": 60,
