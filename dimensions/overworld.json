@@ -78,7 +78,7 @@
         "rarity": 54,
         "caveStartHeight": {
             "max": 70,
-            "min": 15,
+            "min": -64,
             "style": {"style": "STATIC"}
         }
     },
@@ -88,7 +88,7 @@
         "rarity": 44,
         "caveStartHeight": {
             "max": 70,
-            "min": 20,
+            "min": -64,
             "style": {"style": "STATIC"}
         }
     },
@@ -98,7 +98,7 @@
         "rarity": 18,
         "caveStartHeight": {
             "max": 256,
-            "min": 20,
+            "min": -64,
             "style": {"style": "STATIC"}
         }
     },
@@ -108,7 +108,7 @@
         "rarity": 21,
         "caveStartHeight": {
             "max": 256,
-            "min": 20,
+            "min": -64,
             "style": {"style": "STATIC"}
         }
     },
@@ -118,7 +118,17 @@
         "rarity": 24,
         "caveStartHeight": {
             "max": 256,
-            "min": 20,
+            "min": -64,
+            "style": {"style": "STATIC"}
+        }
+    },
+    {
+        "breakSurface": false,
+        "cave": "simple/ravine",
+        "rarity": 120,
+        "caveStartHeight": {
+            "max": 48,
+            "min": -48,
             "style": {"style": "STATIC"}
         }
     },

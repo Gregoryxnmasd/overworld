@@ -3,7 +3,7 @@
     "customBiome": "carving/simple",
     "verticalRange": {
         "max": 256,
-        "min": 0
+        "min": -64
     },
     "fork": {
         "elipsoids": [
@@ -45,6 +45,16 @@
                 "max": 5,
                 "style": {"style": "VASCULAR_THIN"}
             }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 12,
+            "baseWidth": {
+                "min": 2,
+                "max": 4,
+                "style": {"style": "CELLULAR_IRIS_HALF"}
+            }
         }
         ]
     },
@@ -52,12 +62,12 @@
         "girth": {
             "max": 4,
             "min": 2,
-            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 12, "multiplier": 5, "exponent": 20}
+            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 10, "multiplier": 5, "exponent": 20}
         },
         "maxDistance": 133,
         "yStyle": {
-            "min": -6,
-            "max": 6,
+            "min": -12,
+            "max": 12,
             "generator": {
                 "zoom": 2.2,
                 "style": "VASCULAR_IRIS_DOUBLE"
