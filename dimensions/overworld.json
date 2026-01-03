@@ -125,9 +125,9 @@
     {
         "breakSurface": false,
         "cave": "simple/ravine",
-        "rarity": 70,
+        "rarity": 120,
         "caveStartHeight": {
-            "max": 64,
+            "max": 48,
             "min": -48,
             "style": {"style": "STATIC"}
         }
