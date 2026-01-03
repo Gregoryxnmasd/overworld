@@ -3,7 +3,7 @@
     "customBiome": "carving/simple",
     "verticalRange": {
         "max": 30,
-        "min": 15
+        "min": -64
     },
     "fork": {
         "caves": [

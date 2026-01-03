@@ -3,7 +3,7 @@
     "customBiome": "carving/simple",
     "verticalRange": {
         "max": 256,
-        "min": 0
+        "min": -64
     },
     "fork": {
         "elipsoids": [
