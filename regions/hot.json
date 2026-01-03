@@ -2,7 +2,7 @@
     "name": "Hot",
     "color": "#D1CD44",
     "rarity": 2,
-    "seaBiomeZoom": 4,
+    "seaBiomeZoom": 8,
     "landBiomes": [
         "hot/desert",
         "hot/desert_1",
@@ -25,8 +25,8 @@
     ],
     "seaBiomes": ["hot/sea/ocean", "hot/sea/ocean-cliffs"],
     "shoreBiomes": ["hot/shore/beach"],
-    "shoreBiomeZoom": 2,
-    "landBiomeZoom": 2.5,
+    "shoreBiomeZoom": 3,
+    "landBiomeZoom": 4,
     "shoreHeightMin": 0,
     "shoreHeightMax": 2,
     "shoreHeightZoom": 0.1

@@ -2,7 +2,7 @@
     "name": "Temperate",
     "color": "#D1CD44",
     "rarity": 1,
-    "seaBiomeZoom": 8,
+    "seaBiomeZoom": 10,
     "landBiomes": [
 		"temperate/meadows",
 		"temperate/meadows_1",
@@ -62,8 +62,8 @@
     ],
     "seaBiomes": ["temperate/sea/ocean", "temperate/sea/ocean-cliffs"],
     "shoreBiomes": ["temperate/shore/beach", "temperate/shore/grass_beach"],
-    "shoreBiomeZoom": 2,
-    "landBiomeZoom": 2.5,
+    "shoreBiomeZoom": 3,
+    "landBiomeZoom": 4,
     "shoreHeightMin": 0,
     "shoreHeightMax": 2,
     "shoreHeightZoom": 0.1
