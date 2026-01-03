@@ -3,9 +3,16 @@
     "customBiome": "carving/simple",
     "verticalRange": {
         "max": 72,
-        "min": -64
+        "min": 0
     },
     "fork": {
+        "caves": [
+        {
+            "breakSurface": false,
+            "cave": "simple/small",
+            "rarity": 40
+        }
+        ],
         "elipsoids": [
         {
             "fill": {"block": "minecraft:cave_air"},

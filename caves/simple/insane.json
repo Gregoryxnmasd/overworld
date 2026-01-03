@@ -103,15 +103,15 @@
             }
         },
         "xStyle": {
-            "min": 28,
-            "max": 60,
+            "min": -50,
+            "max": 50,
             "generator": {
                 "zoom": 0.35,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": 8,
+            "min": -18,
             "max": 18,
             "generator": {
                 "zoom": 0.35,

@@ -10,22 +10,17 @@
         {
             "breakSurface": false,
             "cave": "simple/small",
-            "rarity": 12
+            "rarity": 45
         },
         {
             "breakSurface": false,
             "cave": "simple/small_1",
-            "rarity": 10
+            "rarity": 50
         },
         {
             "breakSurface": false,
             "cave": "simple/small_2",
-            "rarity": 10
-        },
-        {
-            "breakSurface": false,
-            "cave": "simple/ravine",
-            "rarity": 3
+            "rarity": 55
         }
         ],
         "elipsoids": [
@@ -88,16 +83,16 @@
             }
         },
         "xStyle": {
-            "min": 8,
-            "max": 16,
+            "min": -12,
+            "max": 12,
             "generator": {
                 "zoom": 0.45,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": 2,
-            "max": 20,
+            "min": -18,
+            "max": 18,
             "generator": {
                 "zoom": 0.45,
                 "style": "VASCULAR_IRIS_DOUBLE"

@@ -2,13 +2,21 @@
     "name": "Surface Cave",
     "layers": [
         {
-            "palette": [],
+            "palette": [
+                {
+                    "block": "minecraft:stone"
+                }
+            ],
             "maxHeight": 0
         }
     ],
     "caveCeilingLayers": [
         {
-            "palette": [],
+            "palette": [
+                {
+                    "block": "minecraft:stone"
+                }
+            ],
             "maxHeight": 0
         }
     ]
