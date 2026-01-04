@@ -3,9 +3,11 @@
     "layers": [
         {
             "palette": [
-                {
-                    "block": "minecraft:stone"
-                }
+                {"block": "minecraft:stone", "weight": 6},
+                {"block": "minecraft:andesite", "weight": 2},
+                {"block": "minecraft:granite", "weight": 2},
+                {"block": "minecraft:diorite", "weight": 2},
+                {"block": "minecraft:gravel", "weight": 1}
             ],
             "maxHeight": 0
         }
@@ -13,9 +15,11 @@
     "caveCeilingLayers": [
         {
             "palette": [
-                {
-                    "block": "minecraft:stone"
-                }
+                {"block": "minecraft:stone", "weight": 6},
+                {"block": "minecraft:andesite", "weight": 2},
+                {"block": "minecraft:granite", "weight": 2},
+                {"block": "minecraft:diorite", "weight": 2},
+                {"block": "minecraft:gravel", "weight": 1}
             ],
             "maxHeight": 0
         }

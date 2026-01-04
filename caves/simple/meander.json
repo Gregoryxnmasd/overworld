@@ -2,49 +2,26 @@
     "fill": {"block": "minecraft:cave_air"},
     "customBiome": "carving/simple",
     "verticalRange": {
-        "max": 200,
-        "min": -64
+        "max": 140,
+        "min": -40
     },
     "fork": {
+        "caves": [
+        {
+            "breakSurface": false,
+            "cave": "simple/small_fork",
+            "rarity": 26
+        }
+        ],
         "elipsoids": [
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 14,
-            "baseWidth": {
-                "min": 2,
-                "max": 4,
-                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
-            }
-        },
-        {
-            "fill": {"block": "minecraft:cave_air"},
-            "customBiome": "carving/simple",
-            "rarity": 14,
-            "baseWidth": {
-                "min": 3,
-                "max": 5,
-                "style": {"style": "PERLIN_IRIS_THICK"}
-            }
-        },
-        {
-            "fill": {"block": "minecraft:cave_air"},
-            "customBiome": "carving/simple",
-            "rarity": 12,
+            "rarity": 10,
             "baseWidth": {
                 "min": 4,
-                "max": 6,
-                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
-            }
-        },
-        {
-            "fill": {"block": "minecraft:cave_air"},
-            "customBiome": "carving/simple",
-            "rarity": 12,
-            "baseWidth": {
-                "min": 3,
-                "max": 6,
-                "style": {"style": "VASCULAR_THIN"}
+                "max": 8,
+                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
             }
         },
         {
@@ -52,42 +29,52 @@
             "customBiome": "carving/simple",
             "rarity": 10,
             "baseWidth": {
-                "min": 4,
-                "max": 7,
-                "style": {"style": "CELLULAR_IRIS_HALF"}
+                "min": 5,
+                "max": 9,
+                "style": {"style": "PERLIN_IRIS_THICK"}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 8,
+            "baseWidth": {
+                "min": 6,
+                "max": 10,
+                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
             }
         }
         ]
     },
     "worm": {
         "girth": {
-            "max": 5,
-            "min": 2,
-            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 9, "multiplier": 4, "exponent": 18}
+            "max": 9,
+            "min": 4,
+            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 7, "multiplier": 4, "exponent": 16}
         },
         "allowLoops": true,
-        "maxDistance": 100,
+        "maxDistance": 240,
         "yStyle": {
-            "min": -12,
-            "max": 12,
+            "min": -22,
+            "max": 22,
             "generator": {
-                "zoom": 1.8,
+                "zoom": 1,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "xStyle": {
-            "min": -16,
-            "max": 16,
+            "min": -34,
+            "max": 34,
             "generator": {
-                "zoom": 1.6,
+                "zoom": 0.8,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": -18,
-            "max": 18,
+            "min": -34,
+            "max": 34,
             "generator": {
-                "zoom": 1.5,
+                "zoom": 0.8,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         }

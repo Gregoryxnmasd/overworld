@@ -2,76 +2,122 @@
     "name": "Oasis",
     "color": "#B06F27",
     "rarity": 1,
-    "children": ["hot/oasis"],
-    "customDerivitives": [{
-        "id": "oasis",
-        "waterColor": "#48abf7",
-        "downfallType": "rain"
-    }],
+    "children": [
+        "hot/oasis"
+    ],
+    "customDerivitives": [
+        {
+            "id": "oasis",
+            "waterColor": "#48abf7",
+            "downfallType": "rain"
+        }
+    ],
     "generators": [
-    {
-        "min": 7,
-        "max": 9,
-        "generator": "meadows"
-    },
-    {
-        "min": -5,
-        "max": -12,
-        "generator": "mountain"
-    }
+        {
+            "min": 7,
+            "max": 9,
+            "generator": "meadows"
+        },
+        {
+            "min": -12,
+            "max": -5,
+            "generator": "mountain"
+        }
     ],
     "biomeZoom": 1.25,
     "wall": {
-        "style": {"style": "STATIC"},
-        "slopeCondition":{"minimumSlope": 3},
+        "style": {
+            "style": "STATIC"
+        },
+        "slopeCondition": {
+            "minimumSlope": 3
+        },
         "palette": [
-            {"block": "minecraft:stone"}
+            {
+                "block": "minecraft:stone"
+            }
         ]
     },
     "layers": [
         {
-            "style":{"style": "CELLULAR"},
+            "style": {
+                "style": "CELLULAR"
+            },
             "minHeight": 1,
             "maxHeight": 1,
             "palette": [
-                {"block": "minecraft:sand"},
-                {"block": "minecraft:grass_block"}
+                {
+                    "block": "minecraft:sand"
+                },
+                {
+                    "block": "minecraft:grass_block"
+                }
             ]
         },
         {
             "minHeight": 6,
             "maxHeight": 18,
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "palette": [
-                {"block": "minecraft:stone"},
-                {"block": "minecraft:andesite"},
-                {"block": "minecraft:stone"}
+                {
+                    "block": "minecraft:stone"
+                },
+                {
+                    "block": "minecraft:andesite"
+                },
+                {
+                    "block": "minecraft:stone"
+                }
             ]
         }
     ],
-
-
     "decorators": [
         {
             "chance": 0.001,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:dead_bush"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:dead_bush"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         },
         {
             "chance": 0.3,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:short_grass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         },
         {
             "chance": 0.01,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:tall_grass"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:tall_grass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         }
     ]
 }
