@@ -2,7 +2,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "customBiome": "carving/simple",
     "verticalRange": {
-        "max": 256,
+        "max": 220,
         "min": -64
     },
     "fork": {
@@ -10,91 +10,106 @@
         {
             "breakSurface": false,
             "cave": "simple/small_1_fork",
-            "rarity": 15
+            "rarity": 16
+        },
+        {
+            "breakSurface": false,
+            "cave": "simple/branching",
+            "rarity": 28
         }
         ],
         "elipsoids": [
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 10,
             "baseWidth": {
-                "min": 3,
+                "min": 2,
                 "max": 5,
-                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
+                "style": {"style": "CELLULAR_IRIS_HALF"}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 10,
             "baseWidth": {
-                "min": 4,
-                "max": 7,
+                "min": 3,
+                "max": 6,
                 "style": {"style": "PERLIN_IRIS_THICK"}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 10,
+            "baseWidth": {
+                "min": 4,
+                "max": 7,
+                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 8,
             "baseWidth": {
                 "min": 5,
-                "max": 8,
+                "max": 9,
                 "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
             }
         },
         {
-            "fill": {"block": "minecraft:stone"},
+            "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 8,
             "baseWidth": {
-                "min": 2,
-                "max": 5,
+                "min": 3,
+                "max": 7,
                 "style": {"style": "VASCULAR_THIN"}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 12,
+            "rarity": 8,
             "baseWidth": {
-                "min": 2,
-                "max": 4,
-                "style": {"style": "CELLULAR_IRIS_HALF"}
+                "min": 5,
+                "max": 10,
+                "style": {"style": "VASCULAR_IRIS_THICK"}
             }
         }
         ]
     },
     "worm": {
         "girth": {
-            "max": 4,
+            "max": 7,
             "min": 3,
-            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 10, "multiplier": 5, "exponent": 20}
+            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 7, "multiplier": 4, "exponent": 16}
         },
         "allowLoops": true,
-        "maxDistance": 155,
+        "maxDistance": 130,
         "yStyle": {
-            "min": -12,
-            "max": 12,
+            "min": -16,
+            "max": 16,
             "generator": {
-                "zoom": 2.2,
+                "zoom": 1.4,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "xStyle": {
-            "min": -14,
-            "max": 14,
+            "min": -22,
+            "max": 22,
             "generator": {
-                "zoom": 2.1,
+                "zoom": 1.5,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": -18,
-            "max": 18,
+            "min": -22,
+            "max": 22,
             "generator": {
-                "zoom": 0.8,
+                "zoom": 1.1,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         }
