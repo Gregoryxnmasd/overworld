@@ -3,7 +3,7 @@
     "environment": "NORMAL",
     "dimensionAngleDeg": 17,
     "fluidHeight": 63,
-    "continentZoom": 11,
+    "continentZoom": 13,
     "continentalStyle": {
         "style": "SIMPLEX",
         "multiplier": 23,
@@ -38,7 +38,7 @@
         }
     },
 
-    "regionZoom": 11,
+    "regionZoom": 13,
     "regions": [
         "temperate",
         "temperate",

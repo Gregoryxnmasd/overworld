@@ -18,7 +18,7 @@
         "generator": "mountain-cliffs"
     }
     ],
-    "biomeZoom": 1.25,
+    "biomeZoom": 1.875,
     "wall": {
         "style": {"style": "STATIC"},
         "palette": [

@@ -26,7 +26,57 @@
             "baseWidth": {
                 "min": 2,
                 "max": 4,
-                "style": {"style": "CELLULAR_IRIS_HALF"}
+                "style": {"style": "CELLULAR_IRIS_HALF", "zoom": 1.4}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 12,
+            "baseWidth": {
+                "min": 3,
+                "max": 6,
+                "style": {"style": "PERLIN_IRIS_THICK", "zoom": 2.1}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 10,
+            "baseWidth": {
+                "min": 4,
+                "max": 7,
+                "style": {"style": "FRACTAL_FBM_SIMPLEX", "zoom": 1.6}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 10,
+            "baseWidth": {
+                "min": 5,
+                "max": 8,
+                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX", "zoom": 1.1}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 8,
+            "baseWidth": {
+                "min": 3,
+                "max": 7,
+                "style": {"style": "VASCULAR_THIN", "zoom": 1.7}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 10,
+            "baseWidth": {
+                "min": 4,
+                "max": 9,
+                "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 1.3}
             }
         },
         {
