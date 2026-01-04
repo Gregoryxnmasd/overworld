@@ -20,7 +20,7 @@
         "generator": "plain-cliffs"
     }
     ],
-    "biomeZoom": 4,
+    "biomeZoom": 6,
     "wall": {
         "style": {"style": "STATIC"},
         "slopeCondition":{"minimumSlope": 3},

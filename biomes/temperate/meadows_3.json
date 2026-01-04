@@ -20,7 +20,7 @@
         "generator": "meadows"
     }
     ],
-    "biomeZoom": 0.5,
+    "biomeZoom": 0.75,
     "wall": {
         "style": {"style": "STATIC"},
         "slopeCondition":{"minimumSlope": 3},

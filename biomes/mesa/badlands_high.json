@@ -15,7 +15,7 @@
         "generator": "meadows"
     }
     ],
-    "biomeZoom": 0.75,
+    "biomeZoom": 1.125,
     "biomeStyle": {"style": "FLAT"},
     "layers": [
         {
