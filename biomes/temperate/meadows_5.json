@@ -3,57 +3,86 @@
     "color": "#B06F27",
     "rarity": 1,
     "vanillaDerivative": "PLAINS",
-    "children": ["temperate/meadows"],
+    "children": [
+        "temperate/meadows"
+    ],
     "derivative": "PLAINS",
-    "customDerivitives": [{
-        "id": "meadows",
-        "waterColor": "#48abf7",
-        "downfallType": "rain",
-        "temperature": 0.8,
-        "humidity": 0.4,
-        "category": "plains"
-    }],
+    "customDerivitives": [
+        {
+            "id": "meadows",
+            "waterColor": "#48abf7",
+            "downfallType": "rain",
+            "temperature": 0.8,
+            "humidity": 0.4,
+            "category": "plains"
+        }
+    ],
     "generators": [
-    {
-        "min": -7,
-        "max": -14,
-        "generator": "mountain"
-    }
+        {
+            "min": -14,
+            "max": -7,
+            "generator": "mountain"
+        }
     ],
     "biomeZoom": 4.5,
     "wall": {
-        "style": {"style": "STATIC"},
-        "slopeCondition":{"minimumSlope": 3.1},
+        "style": {
+            "style": "STATIC"
+        },
+        "slopeCondition": {
+            "minimumSlope": 3.1
+        },
         "palette": [
-            {"block": "blocks_expansion:limestone"},
-            {"block": "minecraft:smooth_sandstone"},
-            {"block": "blocks_expansion:limestone"}
+            {
+                "block": "blocks_expansion:limestone"
+            },
+            {
+                "block": "minecraft:smooth_sandstone"
+            },
+            {
+                "block": "blocks_expansion:limestone"
+            }
         ]
     },
     "layers": [
         {
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "zoom": 0.75,
-            "palette": [{"block": "minecraft:grass_block"}]
+            "palette": [
+                {
+                    "block": "minecraft:grass_block"
+                }
+            ]
         },
         {
             "minHeight": 2,
             "maxHeight": 4,
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [
+                {
+                    "block": "minecraft:dirt"
+                }
+            ]
         },
         {
             "minHeight": 60,
             "maxHeight": 64,
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "palette": [
-                {"block": "minecraft:stone"}
+                {
+                    "block": "minecraft:stone"
+                }
             ]
         }
     ],
-
     "objects": [
         {
-            "translate":{"y": 1},
+            "translate": {
+                "y": 1
+            },
             "chance": 0.025,
             "place": [
                 "trees/oak/1",
@@ -64,56 +93,133 @@
     ],
     "decorators": [
         {
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "zoom": 0.17,
             "chance": 0.004,
             "palette": [
-                {"block": "minecraft:dandelion"},
-                {"block": "minecraft:poppy"},
-                {"block": "minecraft:blue_orchid"},
-                {"block": "minecraft:allium"},
-                {"block": "minecraft:azure_bluet"},
-                {"block": "minecraft:red_tulip"},
-                {"block": "minecraft:orange_tulip"},
-                {"block": "minecraft:white_tulip"},
-                {"block": "minecraft:pink_tulip"},
-                {"block": "minecraft:oxeye_daisy"},
-                {"block": "minecraft:cornflower"},
-                {"block": "minecraft:lily_of_the_valley"},
-                {"block": "minecraft:lilac"},
-                {"block": "minecraft:rose_bush"},
-                {"block": "minecraft:sunflower"},
-                {"block": "extracraft:blue_hydrangea_placed"},
-                {"block": "extracraft:burning_blossom_placed"},
-                {"block": "extracraft:lavender_placed"},
-                {"block": "extracraft:lavender_alt_placed"},
-                {"block": "extracraft:orange_cosmos_placed"},
-                {"block": "extracraft:pink_daffodil_placed"},
-                {"block": "extracraft:violet_placed"},
-                {"block": "extracraft:goldenrod_placed"},
-                {"block": "extracraft:white_lavender_placed"},
-                {"block": "extracraft:white_lavender_alt_placed"}]
+                {
+                    "block": "minecraft:dandelion"
+                },
+                {
+                    "block": "minecraft:poppy"
+                },
+                {
+                    "block": "minecraft:blue_orchid"
+                },
+                {
+                    "block": "minecraft:allium"
+                },
+                {
+                    "block": "minecraft:azure_bluet"
+                },
+                {
+                    "block": "minecraft:red_tulip"
+                },
+                {
+                    "block": "minecraft:orange_tulip"
+                },
+                {
+                    "block": "minecraft:white_tulip"
+                },
+                {
+                    "block": "minecraft:pink_tulip"
+                },
+                {
+                    "block": "minecraft:oxeye_daisy"
+                },
+                {
+                    "block": "minecraft:cornflower"
+                },
+                {
+                    "block": "minecraft:lily_of_the_valley"
+                },
+                {
+                    "block": "minecraft:lilac"
+                },
+                {
+                    "block": "minecraft:rose_bush"
+                },
+                {
+                    "block": "minecraft:sunflower"
+                },
+                {
+                    "block": "extracraft:blue_hydrangea_placed"
+                },
+                {
+                    "block": "extracraft:burning_blossom_placed"
+                },
+                {
+                    "block": "extracraft:lavender_placed"
+                },
+                {
+                    "block": "extracraft:lavender_alt_placed"
+                },
+                {
+                    "block": "extracraft:orange_cosmos_placed"
+                },
+                {
+                    "block": "extracraft:pink_daffodil_placed"
+                },
+                {
+                    "block": "extracraft:violet_placed"
+                },
+                {
+                    "block": "extracraft:goldenrod_placed"
+                },
+                {
+                    "block": "extracraft:white_lavender_placed"
+                },
+                {
+                    "block": "extracraft:white_lavender_alt_placed"
+                }
+            ]
         },
         {
             "chance": 0.001,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:dead_bush"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:dead_bush"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         },
         {
             "chance": 0.3,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:short_grass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         },
         {
             "chance": 0.01,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:tall_grass"}],
-            "style": {"style": "STATIC"}
+            "palette": [
+                {
+                    "block": "minecraft:tall_grass"
+                }
+            ],
+            "style": {
+                "style": "STATIC"
+            }
         }
     ]
 }
