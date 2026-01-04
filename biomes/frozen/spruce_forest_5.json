@@ -18,7 +18,7 @@
         "generator": "mountain"
     }
     ],
-    "biomeZoom": 0.5,
+    "biomeZoom": 0.75,
     "layers": [
         {
             "style": {"style": "STATIC"},

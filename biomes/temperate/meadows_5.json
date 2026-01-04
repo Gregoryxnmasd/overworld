@@ -24,7 +24,7 @@
             "generator": "mountain"
         }
     ],
-    "biomeZoom": 3,
+    "biomeZoom": 4.5,
     "wall": {
         "style": {
             "style": "STATIC"
