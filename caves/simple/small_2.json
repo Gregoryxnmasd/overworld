@@ -2,7 +2,7 @@
     "fill": {"block": "minecraft:cave_air"},
     "customBiome": "carving/simple",
     "verticalRange": {
-        "max": 256,
+        "max": 220,
         "min": -64
     },
     "fork": {
@@ -10,91 +10,106 @@
         {
             "breakSurface": false,
             "cave": "simple/small_2_fork",
-            "rarity": 18
+            "rarity": 16
+        },
+        {
+            "breakSurface": false,
+            "cave": "simple/chambers",
+            "rarity": 36
         }
         ],
         "elipsoids": [
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 10,
             "baseWidth": {
                 "min": 3,
                 "max": 5,
-                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
+                "style": {"style": "CELLULAR_IRIS_HALF", "zoom": 1.5}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 10,
             "baseWidth": {
                 "min": 4,
                 "max": 7,
-                "style": {"style": "PERLIN_IRIS_THICK"}
+                "style": {"style": "PERLIN_IRIS_THICK", "zoom": 1.7}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 15,
+            "rarity": 8,
+            "baseWidth": {
+                "min": 4,
+                "max": 8,
+                "style": {"style": "FRACTAL_FBM_SIMPLEX", "zoom": 1.2}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 8,
             "baseWidth": {
                 "min": 5,
-                "max": 8,
-                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
-            }
-        },
-        {
-            "fill": {"block": "minecraft:stone"},
-            "customBiome": "carving/simple",
-            "rarity": 15,
-            "baseWidth": {
-                "min": 2,
-                "max": 5,
-                "style": {"style": "VASCULAR_THIN"}
+                "max": 9,
+                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX", "zoom": 1.05}
             }
         },
         {
             "fill": {"block": "minecraft:cave_air"},
             "customBiome": "carving/simple",
-            "rarity": 12,
+            "rarity": 8,
             "baseWidth": {
-                "min": 2,
-                "max": 4,
-                "style": {"style": "CELLULAR_IRIS_HALF"}
+                "min": 3,
+                "max": 7,
+                "style": {"style": "VASCULAR_THIN", "zoom": 1.4}
+            }
+        },
+        {
+            "fill": {"block": "minecraft:cave_air"},
+            "customBiome": "carving/simple",
+            "rarity": 7,
+            "baseWidth": {
+                "min": 5,
+                "max": 10,
+                "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 1.15}
             }
         }
         ]
     },
     "worm": {
         "girth": {
-            "max": 5,
+            "max": 8,
             "min": 3,
-            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 10, "multiplier": 5, "exponent": 20}
+            "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 6, "multiplier": 4, "exponent": 15}
         },
         "allowLoops": true,
-        "maxDistance": 133,
+        "maxDistance": 140,
         "yStyle": {
-            "min": -12,
-            "max": 12,
+            "min": -18,
+            "max": 18,
             "generator": {
-                "zoom": 2.2,
+                "zoom": 1.2,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "xStyle": {
-            "min": -8,
-            "max": 8,
+            "min": -24,
+            "max": 24,
             "generator": {
-                "zoom": 2.1,
+                "zoom": 1.2,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         },
         "zStyle": {
-            "min": -14,
-            "max": 14,
+            "min": -26,
+            "max": 26,
             "generator": {
-                "zoom": 0.8,
+                "zoom": 1,
                 "style": "VASCULAR_IRIS_DOUBLE"
             }
         }
