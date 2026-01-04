@@ -20,7 +20,7 @@
         "generator": "mountain"
     }
     ],
-    "biomeZoom": 1,
+    "biomeZoom": 1.5,
     "wall": {
         "style": {"style": "STATIC"},
         "slopeCondition":{"minimumSlope": 3},
