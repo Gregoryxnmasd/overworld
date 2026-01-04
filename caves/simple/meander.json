@@ -21,7 +21,7 @@
             "baseWidth": {
                 "min": 4,
                 "max": 8,
-                "style": {"style": "FRACTAL_FBM_SIMPLEX", "zoom": 1.4}
+                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
             }
         },
         {
@@ -31,7 +31,7 @@
             "baseWidth": {
                 "min": 5,
                 "max": 9,
-                "style": {"style": "PERLIN_IRIS_THICK", "zoom": 1.6}
+                "style": {"style": "PERLIN_IRIS_THICK"}
             }
         },
         {
@@ -41,7 +41,7 @@
             "baseWidth": {
                 "min": 6,
                 "max": 10,
-                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX", "zoom": 1.1}
+                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
             }
         }
         ]

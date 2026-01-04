@@ -26,7 +26,7 @@
             "baseWidth": {
                 "min": 3,
                 "max": 5,
-                "style": {"style": "CELLULAR_IRIS_HALF", "zoom": 1.5}
+                "style": {"style": "CELLULAR_IRIS_HALF"}
             }
         },
         {
@@ -46,7 +46,7 @@
             "baseWidth": {
                 "min": 4,
                 "max": 8,
-                "style": {"style": "FRACTAL_FBM_SIMPLEX", "zoom": 1.2}
+                "style": {"style": "FRACTAL_FBM_SIMPLEX"}
             }
         },
         {
@@ -56,7 +56,7 @@
             "baseWidth": {
                 "min": 5,
                 "max": 9,
-                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX", "zoom": 1.05}
+                "style": {"style": "SEXOCTAVE_FRACTAL_BILLOW_SIMPLEX"}
             }
         },
         {
@@ -66,7 +66,7 @@
             "baseWidth": {
                 "min": 3,
                 "max": 7,
-                "style": {"style": "VASCULAR_THIN", "zoom": 1.4}
+                "style": {"style": "VASCULAR_THIN"}
             }
         },
         {
@@ -76,7 +76,7 @@
             "baseWidth": {
                 "min": 5,
                 "max": 10,
-                "style": {"style": "VASCULAR_IRIS_THICK", "zoom": 1.15}
+                "style": {"style": "VASCULAR_IRIS_THICK"}
             }
         }
         ]
